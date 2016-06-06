@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PORT=5984
-BELL_APPS_DIRECTORY=/Users/stu/code/ole/BeLL-Apps
+BELL_APPS_DIRECTORY=/Users/stu/code/ole/BeLL-Apps/
 
 cd "${BELL_APPS_DIRECTORY}" || exit 1
 chmod a+x node_modules/.bin/couchapp
