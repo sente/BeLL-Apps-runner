@@ -1,0 +1,163 @@
+{
+    "title": "Text",
+    "author": {
+        "title": "Author/Editor",
+        "type": "Text"
+    },
+    "Publisher": {
+        "title": "Publisher/Attribution",
+        "type": "Text"
+    },
+    "language": {
+        "type": "Select",
+        "options": []
+    },
+    "Year": "Text",
+    "linkToLicense": {
+        "title": "Link To License",
+        "type": "Text"
+    },
+    "subject": {
+        "title": "Subjects",
+        "type": "Select",
+        "options": [
+            "Agriculture",
+            "Arts",
+            "Business and Finance",
+            "Environment",
+            "Food and Nutrition",
+            "Geography",
+            "Health and Medicine",
+            "History",
+            "Human Development",
+            "Languages",
+            "Law",
+            "Learning",
+            "Literature",
+            "Math",
+            "Music",
+            "Politics and Government",
+            "Reference",
+            "Religion",
+            "Science",
+            "Social Sciences",
+            "Sports",
+            "Technology"
+        ]
+    },
+    "Level": {
+        "title": "Levels",
+        "type": "Select",
+        "options": [
+            "Early Education",
+            "Lower Primary",
+            "Upper Primary",
+            "Lower Secondary",
+            "Upper Secondary",
+            "Undergraduate",
+            "Graduate",
+            "Professional"
+        ]
+    },
+    "Tag": {
+        "title": "Collection",
+        "type": "Select",
+        "options": []
+    },
+    "Medium": {
+        "type": "Select",
+        "options": [
+            "Text",
+            "Graphic/Pictures",
+            "Audio/Music/Book ",
+            "Video"
+        ]
+    },
+    "openWith": {
+        "type": "Select",
+        "options": [
+            {
+                "val": "Just download",
+                "label": "Just download"
+            },
+            {
+                "val": "HTML",
+                "label": "HTML"
+            },
+            {
+                "val": "PDF.js",
+                "label": "PDF"
+            },
+            {
+                "val": "Bell-Reader",
+                "label": "Bell-Reader"
+            },
+            {
+                "val": "MP3",
+                "label": "Audio (MP3)"
+            },
+            {
+                "val": "Flow Video Player",
+                "label": "Video (MP4, FLV)"
+            },
+            {
+                "val": "BeLL Video Book Player",
+                "label": "Video Book (webm+json)"
+            },
+            {
+                "val": "Native Video",
+                "label": "Native Video"
+            }
+        ]
+    },
+    "resourceFor": {
+        "type": "Select",
+        "options": [
+            {
+                "val": "Default",
+                "label": "Default"
+            },
+            {
+                "val": "Leader",
+                "label": "Leader"
+            },
+            {
+                "val": "Learner",
+                "label": "Learner"
+            }
+        ]
+    },
+    "resourceType": {
+        "type": "Select",
+        "options": [
+            {
+                "val": "Textbook",
+                "label": "Textbook"
+            },
+            {
+                "val": "Lesson Plan",
+                "label": "Lesson Plan"
+            },
+            {
+                "val": "Activities",
+                "label": "Activities"
+            },
+            {
+                "val": "Exercises",
+                "label": "Exercises"
+            },
+            {
+                "val": "Discussion Questions",
+                "label": "Discussion Questions"
+            }
+        ]
+    },
+    "uploadDate": "Date",
+    "averageRating": "Text",
+    "articleDate": {
+        "title": "Date Added to Library",
+        "type": "Date"
+    },
+    "addedBy": "Text",
+    "openUrl": []
+}

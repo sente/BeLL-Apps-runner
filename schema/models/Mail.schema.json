@@ -1,0 +1,10 @@
+{
+    "sednerId": "Text",
+    "receiverId": "Text",
+    "subject": "Text",
+    "body": "Text",
+    "type": "Text",
+    "status": "Text",
+    "sentDate": "Text",
+    "mailingList": "Text"
+}

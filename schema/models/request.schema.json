@@ -1,0 +1,10 @@
+{
+    "senderId": "Text",
+    "status": "Text",
+    "sendFrom": "Text",
+    "sendFromName": "Text",
+    "request": "TextArea",
+    "response": "TextArea",
+    "type": "Text",
+    "date": "Text"
+}

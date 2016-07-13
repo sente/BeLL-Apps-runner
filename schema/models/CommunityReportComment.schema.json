@@ -1,0 +1,7 @@
+{
+    "CommunityReportId": "Text",
+    "commentNumber": "Text",
+    "comment": "TextArea",
+    "memberLogin": "Text",
+    "time": "Text"
+}

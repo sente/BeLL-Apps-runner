@@ -1,0 +1,19 @@
+{
+    "invitationType": {
+        "type": "Select",
+        "options": [
+            {
+                "val": "All",
+                "label": "All"
+            },
+            {
+                "val": "Members",
+                "label": "Members"
+            }
+        ]
+    },
+    "members": {
+        "type": "Checkboxes",
+        "options": null
+    }
+}

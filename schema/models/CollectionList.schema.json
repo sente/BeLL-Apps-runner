@@ -1,0 +1,16 @@
+{
+    "CollectionName": "Text",
+    "Description": "TextArea",
+    "NesttedUnder": {
+        "title": "Nested Under",
+        "type": "Select",
+        "options": [
+            {
+                "val": "--Select--",
+                "label": "--Select--"
+            }
+        ]
+    },
+    "AddedBy": "Text",
+    "AddedDate": "Text"
+}

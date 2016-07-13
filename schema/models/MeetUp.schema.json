@@ -1,0 +1,69 @@
+{
+    "title": "Text",
+    "description": "TextArea",
+    "startDate": "Text",
+    "endDate": "Text",
+    "recurring": {
+        "type": "Radio",
+        "options": [
+            "Daily",
+            "Weekly"
+        ]
+    },
+    "Day": {
+        "type": "Checkboxes",
+        "options": [
+            "Saturday",
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ]
+    },
+    "startTime": "Text",
+    "endTime": "Text",
+    "category": {
+        "type": "Select",
+        "options": [
+            {
+                "val": "ICT",
+                "label": "ICT"
+            },
+            {
+                "val": "First Time",
+                "label": "First Time"
+            },
+            {
+                "val": "Mothers",
+                "label": "Mothers"
+            },
+            {
+                "val": "General",
+                "label": "General"
+            },
+            {
+                "val": "E Learning",
+                "label": "E Learning"
+            },
+            {
+                "val": "Farming",
+                "label": "Farming"
+            },
+            {
+                "val": "Academic Discussion",
+                "label": "Academic Discussion"
+            },
+            {
+                "val": "Academic Help",
+                "label": "Academic Help"
+            },
+            {
+                "val": "Awareness",
+                "label": "Awareness"
+            }
+        ]
+    },
+    "meetupLocation": "Text"
+}

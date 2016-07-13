@@ -1,0 +1,7 @@
+{
+    "rating": "Text",
+    "comment": "TextArea",
+    "resourceId": "Text",
+    "memberId": "Text",
+    "communityCode": "Text"
+}

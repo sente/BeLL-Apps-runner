@@ -1,0 +1,28 @@
+{
+    "title": {
+        "title": "Event Name",
+        "validators": [
+            "required"
+        ]
+    },
+    "description": {
+        "type": "TextArea",
+        "title": "Event description",
+        "validators": [
+            "required"
+        ]
+    },
+    "startDate": "Text",
+    "endDate": "Text",
+    "startTime": "Text",
+    "endTime": "Text",
+    "userId": {
+        "validators": [
+            "required"
+        ],
+        "type": "Hidden"
+    },
+    "url": {
+        "type": "Hidden"
+    }
+}

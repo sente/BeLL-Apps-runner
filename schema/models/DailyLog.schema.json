@@ -1,0 +1,19 @@
+{
+    "male_deleted_count": "number",
+    "female_deleted_count": "number",
+    "logDate": "Text",
+    "female_visits": "number",
+    "male_visits": "number",
+    "female_new_signups": "number",
+    "male_new_signups": "number",
+    "resourcesIds": [],
+    "female_rating": [],
+    "female_timesRated": [],
+    "male_rating": [],
+    "male_timesRated": [],
+    "resources_opened": [],
+    "resources_names": [],
+    "female_opened": [],
+    "male_opened": [],
+    "community": "Text"
+}

@@ -1,0 +1,11 @@
+{
+    "Date": "Text",
+    "IssueNo": "Number",
+    "editorName": "Text",
+    "editorEmail": "Text",
+    "editorPhone": "Text",
+    "resources": {
+        "type": "Select",
+        "options": []
+    }
+}

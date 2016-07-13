@@ -1,0 +1,20 @@
+{
+    "community_code": {
+        "type": "Text",
+        "validators": [
+            "required"
+        ]
+    },
+    "nationName": {
+        "type": "Text",
+        "validators": [
+            "required"
+        ]
+    },
+    "nationUrl": {
+        "type": "Text",
+        "validators": [
+            "required"
+        ]
+    }
+}

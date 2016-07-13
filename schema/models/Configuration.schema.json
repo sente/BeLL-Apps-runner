@@ -1,0 +1,53 @@
+{
+    "name": {
+        "type": "Text",
+        "validators": [
+            "required"
+        ]
+    },
+    "code": {
+        "type": "Text",
+        "validators": [
+            "required"
+        ]
+    },
+    "type": {
+        "type": "Select",
+        "options": [
+            {
+                "val": "community",
+                "label": "community"
+            },
+            {
+                "val": "nation",
+                "label": "nation"
+            }
+        ],
+        "validators": [
+            "required"
+        ]
+    },
+    "region": "Text",
+    "nationName": {
+        "type": "Text",
+        "validators": [
+            "required"
+        ]
+    },
+    "nationUrl": {
+        "type": "Text",
+        "validators": [
+            "required"
+        ]
+    },
+    "version": {
+        "type": "Text"
+    },
+    "notes": {
+        "type": "Text"
+    },
+    "selectLanguage": {
+        "type": "Select",
+        "options": []
+    }
+}
