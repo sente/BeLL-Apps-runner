@@ -1,0 +1,5 @@
+
+.gtm/
+scripts/resources/resources/*
+scripts/resources/dogitown/*
+scripts/out/*
