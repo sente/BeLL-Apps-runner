@@ -564,6 +564,7 @@ http://waqas.nbs.ole.org:5981/collectionlist/_design/bell
 http://waqas.nbs.ole.org:5981/communities/_design/bell
 http://waqas.nbs.ole.org:5981/community/_design/bell
 http://waqas.nbs.ole.org:5981/communityconfigurations/_design/bell
+http://waqas.nbs.ole.org:5981/communityregistrationrequests/_design/bell
 http://waqas.nbs.ole.org:5981/communityreports/_design/bell
 http://waqas.nbs.ole.org:5981/configurations/_design/bell
 http://waqas.nbs.ole.org:5981/courseschedule/_design/bell
@@ -627,3 +628,4 @@ http://umar.nbs.ole.org:5980/surveyanswers/_design/bell
 http://umar.nbs.ole.org:5980/surveyquestions/_design/bell
 http://umar.nbs.ole.org:5980/surveyresponse/_design/bell
 http://umar.nbs.ole.org:5980/usermeetups/_design/bell
+http://umar.nbs.ole.org:5980/viplinks/_design/bell

@@ -17,8 +17,3 @@ http://sadia.nbs.ole.org:5983
 http://saba.nbs.ole.org:5982
 http://waqas.nbs.ole.org:5981
 http://umar.nbs.ole.org:5980
-http://192.168.0.99:5984
-http://192.168.1.99:5984
-http://192.168.2.99:5984
-http://192.168.3.99:5984
-http://192.168.4.99:5984
