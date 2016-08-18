@@ -6,6 +6,7 @@ import pprint
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+# example output https://gist.github.com/sente/e5dd3d20fd0919722d83a9520a6f9984
 
 def list_attachments(host, database):
 
