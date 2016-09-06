@@ -26,14 +26,10 @@ def test_rows():
             print 'null: {}'.format(row)
         if isinstance(row, list):
             print 'list: {}'.format(row)
-            time.sleep(.3)
         elif isinstance(row, float):
             print 'deci: {}'.format(row)
-            time.sleep(3)
         else:
             print 'norm: {}'.format(row)
-
-    #    return normalize(ow)
 
 
 def load_lookup_table(filepath):
@@ -54,36 +50,40 @@ def load_lookup_table(filepath):
     return d
 
 
-thedocs = json.load(open('resources.json'))
-
-ids = [t.get('_id') for t in thedocs]
-rows = [t.get('language') for t in thedocs]
-
-
-norms = [normalize(r) for r in rows]
 
 
 
-ds = tablib.Dataset(headers=['id','original_language','normalized_language','final_language'])
+def main():
+    thedocs = json.load(open('resources.json'))
 
-mapping = load_lookup_table('lookup.txt')
-    
-
-for a,b,c in zip(ids,norms,rows):
-    print a
-    #print a,c,','.join(b),','.join([str(mapping[str(x)]) for x in b])
-    _id = str(a),
-    original_language = c
-    normalized_language = ','.join(b)
-    mapped = [mapping[str(x)] for x in b]
-    mapped = [m for m in mapped if m != 'none']
-
-    final_language = ','.join(mapped)
-#    final_language = ','.join([(mapping[str(x)]) for x in b])
-
-    ds.append([_id, original_language,normalized_language,final_language])
+    ids = [t.get('_id') for t in thedocs]
+    rows = [t.get('language') for t in thedocs]
 
 
-open('ds.xlsx','w').write(ds.xlsx)
+    norms = [normalize(r) for r in rows]
+
+
+    ds = tablib.Dataset(headers=['id', 'original_language', 'normalized_language', 'final_language'])
+
+    mapping = load_lookup_table('lookup.txt')
+
+    for a,b,c in zip(ids,norms,rows):
+        print a
+        _id = str(a)
+        original_language = c
+        normalized_language = ','.join(b)
+        mapped = [mapping[str(x)] for x in b]
+        mapped = [m for m in mapped if m != 'none']
+
+        final_language = ','.join(mapped)
+    #    final_language = ','.join([(mapping[str(x)]) for x in b])
+
+        ds.append([_id, original_language,normalized_language,final_language])
+
+
+    open('ds.xlsx','w').write(ds.xlsx)
+
+if __name__ == '__main__':
+    main()
 
 
