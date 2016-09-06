@@ -3,6 +3,9 @@ import json
 import re
 import time
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 def normalize(row):
     if not row:
