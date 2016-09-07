@@ -1,0 +1,11 @@
+BEFORE	AFTER
+All	All
+Early Education	Beginning Education
+Graduate	University
+LP (Lower Primary)	Elementary School
+Lower Primary	Elementary School
+Lower Secondary	Middle School
+Professional	Professional
+Undergraduate	University
+Upper Primary	Elementary School
+Upper Secondary	High School
