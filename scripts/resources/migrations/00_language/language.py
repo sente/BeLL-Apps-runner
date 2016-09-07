@@ -54,7 +54,11 @@ def load_lookup_table(filepath):
 
 
 def main():
-    thedocs = json.load(open('resources.json'))
+    try:
+        resource_file = sys.argv[1]
+    except:
+        resource_file = 'resources.json'
+    thedocs = json.load(open(resource_file))
 
     ids = [t.get('_id') for t in thedocs]
     rows = [t.get('language') for t in thedocs]
@@ -82,8 +86,9 @@ def main():
 
 
     open('ds.xlsx','w').write(ds.xlsx)
+    return ds
 
 if __name__ == '__main__':
-    main()
+    ds = main()
 
 
