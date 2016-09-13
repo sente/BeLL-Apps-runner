@@ -1,0 +1,36 @@
+MAT (Math)	Math
+SOC (Social Sciences)	Social Sciences
+POL (Politics & Government)	Politics and Government
+MUS (Music)	Music
+HMD (Health & Medicine)	Health and Medicine
+HIS (History)	History
+LEA (Learning)	Learning
+Arts	Arts
+Politics & Government	Politics and Government
+bell	None
+Sports	Sports
+Languages	Languages
+Religion	Religion
+Music	Music
+Social Sciences	Social Sciences
+Math	Math
+Literature	Literature
+Fine Arts	Arts
+bell_learning	None
+opensource	None
+Law	Law
+Food and Nutrition	Food and Nutrition
+Human Development	Human Development
+Science	Science
+Health and Medicine	Health and Medicine
+Business and Finance	Business and Finance
+History	History
+Environment	Environment
+bell_reference	None
+Health & Medicine	Health and Medicine
+Reference	Reference
+bell_literature	None
+Technology	Technology
+Learning	Learning
+Agriculture	Agriculture
+Geography	Geography
