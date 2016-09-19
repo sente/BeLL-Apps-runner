@@ -73,19 +73,20 @@ if __name__ == '__main__':
         doc['subject']
         new_subjects = [mapping[doc['subject']]]
         print "{}\t{}\t{}".format(doc.get('_id'),doc['subject'],new_subjects)
+        doc['subject'] = new_subjects
         db.save(doc)
 
 
-    print '\n' * 5
-    for i,doc in enumerate(docs_with_array_subjects):
-        if len(doc['subject']) > 0:
-            new_subjects = []
-            for subject in doc['subject']:
-                new_subjects.append(mapping[subject])
-
-
-            print "{}\t{}\t{}".format(doc.get('_id'),doc['subject'],new_subjects)
-            doc['subject'] = new_subjects
-            db.save(doc)
-
-    sys.exit(0)
+#    print '\n' * 5
+#    for i,doc in enumerate(docs_with_array_subjects):
+#        if len(doc['subject']) > 0:
+#            new_subjects = []
+#            for subject in doc['subject']:
+#                new_subjects.append(mapping[subject])
+#
+#
+#            print "{}\t{}\t{}".format(doc.get('_id'),doc['subject'],new_subjects)
+#            doc['subject'] = new_subjects
+#            db.save(doc)
+#
+#    sys.exit(0)
