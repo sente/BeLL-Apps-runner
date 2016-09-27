@@ -8,6 +8,45 @@ sys.setdefaultencoding('utf-8')
 
 # example output https://gist.github.com/sente/e5dd3d20fd0919722d83a9520a6f9984
 
+
+from optparse import OptionParser
+import pycouchdb
+
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+
+usage = "usage: %prog [options] arg"
+parser = OptionParser(usage)
+
+parser.add_option("--id", "--_id",
+                dest="id",
+                default="",
+                action="store",
+                help="the resource to change"
+                )
+
+parser.add_option("-H", "--host",
+                dest="host",
+                default="",
+                action="store",
+                help="The couchdb server/host"
+                )
+
+parser.add_option("--database",
+                dest="database",
+                default="",
+                action="store",
+                help="the database on the host"
+                )
+
+
+
+(options, args) = parser.parse_args()
+
+
+
 def list_attachments(host, database):
 
     server = pycouchdb.Server(host)
@@ -54,7 +93,7 @@ def delete_attachments_and_update_openwith(database, d, dryrun=True):
     else:
         print "DELETE\tid: {}\tjpgs:{}\tpdfs:{}\topenwith:{}".format(d.get('_id'),len(jpgs),len(pdfs), opener)
 
-    if dryrun:
+    if dryrun || bail:
         return
 
     for k in jpgs:
@@ -67,15 +106,14 @@ def delete_attachments_and_update_openwith(database, d, dryrun=True):
 
 if __name__ == '__main__':
 
-    server = sys.argv[1]
-    database = sys.argv[2]
-    attachment_name = sys.argv[3]
+    server = pycouchdb.Server(options.host)
+    db = server.database(options.database)
 
-
-    server = pycouchdb.Server(server)
-    db = server.database('sturesources')
+    print 'getting docs'
     docs = list(db.all())
+    print 'got {} docs'.format(len(docs))
 
     for d in docs:
+#        print d
         delete_attachments_and_update_openwith(db, d.get('doc'), dryrun=True)
 
