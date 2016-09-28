@@ -1,6 +1,7 @@
 import tablib
 
 from collections import OrderedDict
+import cPickle as pickle
 import json
 
 import sys
@@ -9,7 +10,7 @@ sys.setdefaultencoding('utf-8')
 
 
 files = ['/Users/stu/code/OLE/BeLL-Apps/init_docs/languages/English.txt',
-       '/Users/stu/code/OLE/BeLL-Apps/init_docs/languages/Arabic.txt']
+         '/Users/stu/code/OLE/BeLL-Apps/init_docs/languages/Arabic.txt']
 
 keys = 'SubjectList','LevelArray','mediaList'
 
@@ -38,3 +39,4 @@ for key in keys:
         open('{}/{}.xls'.format(odir,key),'w').write(ds.xls)
 
 
+pickle.dump(dicts,open('lookups/dicts.pkl','w'))
