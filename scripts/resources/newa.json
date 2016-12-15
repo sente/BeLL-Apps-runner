@@ -1,0 +1,35 @@
+{
+   "_id": "85b295900e11264f9dbdbde1ac001db3",
+   "_rev": "2-9666aea27d96f7373d4c352e364d085c",
+   "kind": "Resource",
+   "type": "nation",
+   "title": "The Holey Bible (King James Version)",
+   "author": "",
+   "Publisher": "",
+   "language": "English",
+   "Year": "",
+   "linkToLicense": "",
+   "subject": [
+       "Religion"
+   ],
+   "Level": [
+       "Professional"
+   ],
+   "Tag": null,
+   "Medium": "Text",
+   "openWith": "PDF.js",
+   "resourceFor": "Default",
+   "resourceType": "Textbook",
+   "uploadDate": "2016-08-10T04:00:00.000Z",
+   "averageRating": "",
+   "articleDate": "2016-08-10T04:00:00.000Z",
+   "addedBy": "admin",
+   "openUrl": "",
+   "need_optimization": true,
+   "sum": 0,
+   "timesRated": 0,
+   "_attachments": {
+       "king james bible.pdf": {
+       }
+   }
+}

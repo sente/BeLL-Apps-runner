@@ -1,0 +1,34 @@
+{
+  "Publisher": "",
+  "_rev": "12-29fbc1e8e47514fbfee11432af1035a5",
+  "openWith": "Bell-Reader",
+  "id": "KingJamesBible",
+  "subject": [
+    "Religion"
+  ],
+  "Medium": "Text",
+  "author": "",
+  "filename": "",
+  "need_optimization": false,
+  "description": [
+    "An English translation of the Christian sacred text commissioned by the Church of England.\u00a0"
+  ],
+  "Level": [
+    "Professional"
+  ],
+  "addedBy": "",
+  "uploadDate": "1915-01-01T05:00:00.000Z",
+  "articleDate": "1915-01-01T05:00:00.000Z",
+  "kind": "Resource",
+  "language": "eng",
+  "title": "The Holy Bible (King James Version)",
+  "_attachments": {
+  },
+  "Tag": [
+    "845ca5617e959d8a09839f5cca7935a0",
+    "41d96d20b4c87ffd1545b6d457024f0c"
+  ],
+  "Year": "",
+  "_id": "KingJamesBible",
+  "averageRating": ""
+}

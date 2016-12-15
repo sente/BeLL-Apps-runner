@@ -1,0 +1,363 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>diff</title>
+<meta name="Generator" content="Vim/7.4">
+<meta name="plugin-version" content="vim7.4_v1">
+<meta name="settings" content="number_lines,whole_filler,use_css,no_foldcolumn,expand_tabs,line_ids,prevent_copy=">
+<meta name="colorscheme" content="inkpot">
+<style type="text/css">
+<!--
+pre { font-family: monospace; color: #ffffff; background-color: #080808; }
+body { font-family: monospace; color: #ffffff; background-color: #080808; }
+* { font-size: 1em; }
+.Special { color: #af5fff; }
+.Normal { color: #ffffff; background-color: #080808; padding-bottom: 1px; }
+.Comment { color: #af5f00; }
+.Type { color: #ff5fff; }
+.LineNr { color: #5f5fff; background-color: #080808; padding-bottom: 1px; }
+.Identifier { color: #af5f5f; }
+.Statement { color: #00afff; }
+.String { color: #ffaf5f; background-color: #262626; padding-bottom: 1px; }
+.Number { color: #ff5f5f; }
+.DiffAdd { color: #ffffff; background-color: #005f00; padding-bottom: 1px; }
+.DiffChange { color: #ffffff; background-color: #00005f; padding-bottom: 1px; }
+.DiffDelete { color: #ffffff; background-color: #5f0000; padding-bottom: 1px; }
+.DiffText { color: #ffffff; background-color: #5f00af; padding-bottom: 1px; }
+-->
+<!--
+table { table-layout: fixed; }
+html, body, table, tbody { width: 100%; margin: 0; padding: 0; }
+th, td { width: 50.0%; }
+td div { overflow: auto; }
+-->
+</style>
+<script type='text/javascript'>
+<!--
+
+/* function to open any folds containing a jumped-to line before jumping to it */
+function JumpToLine()
+{
+  var lineNum;
+  lineNum = window.location.hash;
+  lineNum = lineNum.substr(1); /* strip off '#' */
+
+  if (lineNum.indexOf('L') == -1) {
+    lineNum = 'L'+lineNum;
+  }
+  if (lineNum.indexOf('W') == -1) {
+    lineNum = 'W1'+lineNum;
+  }
+  lineElem = document.getElementById(lineNum);
+  /* Always jump to new location even if the line was hidden inside a fold, or
+   * we corrected the raw number to a line ID.
+   */
+  if (lineElem) {
+    lineElem.scrollIntoView(true);
+  }
+  return true;
+}
+if ('onhashchange' in window) {
+  window.onhashchange = JumpToLine;
+}
+
+-->
+</script>
+</head>
+<body onload='JumpToLine();'>
+<table border='1' width='100%' id='vimCodeElement'>
+<tr>
+<th>delete_script.py</th>
+<th>delete_script_sente.py</th>
+</tr><tr>
+<td valign="top"><div>
+<pre>
+<span id="W1L1" class="LineNr">  1 </span><span class="Statement">import</span> pycouchdb
+<span id="W1L2" class="LineNr">  2 </span><span class="Statement">import</span> time
+<span id="W1L3" class="LineNr">  3 </span><span class="Statement">import</span> sys
+<span id="W1L4" class="LineNr">  4 </span><span class="Statement">import</span> pprint
+<span id="W1L5" class="LineNr">  5 </span>
+<span id="W1L6" class="LineNr">  6 </span>reload(sys)
+<span id="W1L7" class="LineNr">  7 </span>sys<span class="Normal">.</span>setdefaultencoding(<span class="String">'utf-8'</span>)
+<span id="W1L8" class="LineNr">  8 </span>
+<span id="W1L9" class="LineNr">  9 </span>
+<span id="W1L10" class="LineNr"> 10 </span>
+<span id="W1L11" class="LineNr"> 11 </span><span class="Statement">def</span> <span class="Identifier">list_attachments</span>(host, database):
+<span id="W1L12" class="LineNr"> 12 </span>
+<span id="W1L13" class="LineNr"> 13 </span>    server = pycouchdb<span class="Normal">.</span>Server(host)
+<span id="W1L14" class="LineNr"> 14 </span>    db = server<span class="Normal">.</span>database(database)
+<span id="W1L15" class="LineNr"> 15 </span>
+<span id="W1L16" class="LineNr"> 16 </span>    resources = <span class="Identifier">list</span>(db<span class="Normal">.</span><span class="Identifier">all</span>())
+<span id="W1L17" class="LineNr"> 17 </span>    docs = [r<span class="Normal">.</span>get(<span class="String">'doc'</span>) <span class="Statement">for</span> r <span class="Statement">in</span> resources <span class="Statement">if</span> r[<span class="String">'doc'</span>]<span class="Normal">.</span>get(<span class="String">&quot;title&quot;</span>)]
+<span id="W1L18" class="LineNr"> 18 </span>
+<span id="W1L19" class="LineNr"> 19 </span>    <span class="Comment">#attachments = [att for att in doc['_attachments'] if att.endswith('.jpg')]</span>
+<span id="W1L20" class="LineNr"> 20 </span>    <span class="Statement">for</span> i,d <span class="Statement">in</span> <span class="Identifier">enumerate</span>(docs):
+<span id="W1L21" class="LineNr"> 21 </span>        <span class="Identifier">print</span> <span class="String">&quot;{}</span><span class="Special">\t</span><span class="String">{}/_utils/document.html?{}/{}</span><span class="Special">\t</span><span class="String">{}&quot;</span><span class="Normal">.</span><span class="Identifier">format</span>(i, host, database, d<span class="Normal">.</span>get(<span class="String">'_id'</span>), d<span class="Normal">.</span>get(<span class="String">'openWith'</span>,<span class="String">''</span>))
+<span id="W1L22" class="LineNr"> 22 </span>        <span class="Statement">if</span> <span class="String">'title'</span> <span class="Statement">not</span> <span class="Statement">in</span> d:
+<span id="W1L23" class="LineNr"> 23 </span>            <span class="Identifier">next</span>
+<span id="W1L24" class="LineNr"> 24 </span>        <span class="Statement">for</span> att <span class="Statement">in</span> d<span class="Normal">.</span>get(<span class="String">'_attachments'</span>,{}):
+<span id="W1L25" class="LineNr"> 25 </span>            <span class="Identifier">print</span> <span class="String">'{}</span><span class="Special">\t</span><span class="String">{}</span><span class="Special">\t</span><span class="String">{}</span><span class="Special">\t</span><span class="String">{}/{}'</span><span class="Normal">.</span><span class="Identifier">format</span>(d<span class="Normal">.</span>get(<span class="String">'openWith'</span>),<span class="Identifier">len</span>(d<span class="Normal">.</span>get(<span class="String">'_attachments'</span>,{})),d[<span class="String">'_id'</span>], d<span class="Normal">.</span>get(<span class="String">'title'</span>), att)
+<span id="W1L26" class="LineNr"> 26 </span>        <span class="Identifier">print</span>
+<span id="W1L27" class="LineNr"> 27 </span>
+<span id="W1L28" class="LineNr"> 28 </span>
+<span id="W1L29" class="LineNr"> 29 </span>
+<span id="W1L30" class="LineNr"> 30 </span>
+<span id="W1L31" class="LineNr"> 31 </span>
+<span id="W1L32" class="LineNr"> 32 </span><span class="Statement">def</span> <span class="Identifier">delete_attachments_and_update_openwith</span>(database, d, dryrun=<span class="Statement">True</span>):
+<span id="W1L33" class="LineNr"> 33 </span>
+<span id="W1L34" class="LineNr"> 34 </span>    d<span class="Normal">.</span>get(<span class="String">'_id'</span>)
+<span id="W1L35" class="LineNr"> 35 </span>    keys = d<span class="Normal">.</span>get(<span class="String">'_attachments'</span>,{})<span class="Normal">.</span>keys()
+<span id="W1L36" class="LineNr"> 36 </span>
+<span id="W1L37" class="LineNr"> 37 </span>    opener = d<span class="Normal">.</span>get(<span class="String">'openWith'</span>)
+<span id="W1L38" class="LineNr"> 38 </span>
+<span id="W1L39" class="LineNr"> 39 </span>    jpgs = [k <span class="Statement">for</span> k <span class="Statement">in</span> keys <span class="Statement">if</span> k<span class="Normal">.</span>endswith(<span class="String">'.jpg'</span>)]
+<span id="W1L40" class="LineNr"> 40 </span>    pdfs = [k <span class="Statement">for</span> k <span class="Statement">in</span> keys <span class="Statement">if</span> k<span class="Normal">.</span>endswith(<span class="String">'.pdf'</span>)]
+<span id="W1L41" class="LineNr"> 41 </span>
+<span id="W1L42" class="LineNr"> 42 </span>    <span class="Comment">#print &quot;id: {} jpgs:{} pdfs:{} openwith:{}&quot;.format(d.get('_id'),len(jpgs),len(pdfs), opener)</span>
+<span id="W1L43" class="LineNr"> 43 </span>
+<span id="W1L44" class="LineNr"> 44 </span>    bail = <span class="Statement">False</span>
+<span id="W1L45" class="LineNr"> 45 </span>
+<span id="W1L46" class="LineNr"> 46 </span>    <span class="Statement">if</span> <span class="Statement">not</span> jpgs:
+<span id="W1L47" class="LineNr"> 47 </span>        bail = <span class="Statement">True</span>
+<span id="W1L48" class="LineNr"> 48 </span>
+<span id="W1L49" class="LineNr"> 49 </span>    <span class="Statement">if</span> <span class="Statement">not</span> pdfs:
+<span id="W1L50" class="LineNr"> 50 </span>        bail = <span class="Statement">True</span>
+<span id="W1L51" class="LineNr"> 51 </span>
+<span id="W1L52" class="LineNr"> 52 </span>    <span class="Statement">if</span> opener != <span class="String">'Bell-Reader'</span>:
+<span id="W1L53" class="LineNr"> 53 </span>        bail = <span class="Statement">True</span>
+<span id="W1L54" class="LineNr"> 54 </span>
+<span id="W1L55" class="LineNr"> 55 </span>
+<span id="W1L56" class="LineNr"> 56 </span>    <span class="Statement">if</span> bail:
+<span id="W1L57" class="LineNr"> 57 </span><span class="DiffChange">        </span><span class="Identifier DiffChange">print</span><span class="DiffChange"> </span><span class="String DiffChange">&quot;SKIP</span><span class="String DiffText">    id: {} jpgs:{} pdfs:{} </span><span class="String DiffChange">openwith:{}&quot;</span><span class="Normal DiffChange">.</span><span class="Identifier DiffChange">format</span><span class="DiffChange">(d</span><span class="Normal DiffChange">.</span><span class="DiffChange">get(</span><span class="String DiffChange">'_id'</span><span class="DiffChange">),</span><span class="Identifier DiffChange">len</span><span class="DiffChange">(jpgs),</span><span class="Identifier DiffChange">len</span><span class="DiffChange">(pdfs), opener)            </span>
+<span id="W1L58" class="LineNr"> 58 </span>    <span class="Statement">else</span>:
+<span id="W1L59" class="LineNr"> 59 </span><span class="DiffChange">        </span><span class="Identifier DiffChange">print</span><span class="DiffChange"> </span><span class="String DiffChange">&quot;DELETE</span><span class="String DiffText">  id: {} jpgs:{} pdfs:{} </span><span class="String DiffChange">openwith:{}&quot;</span><span class="Normal DiffChange">.</span><span class="Identifier DiffChange">format</span><span class="DiffChange">(d</span><span class="Normal DiffChange">.</span><span class="DiffChange">get(</span><span class="String DiffChange">'_id'</span><span class="DiffChange">),</span><span class="Identifier DiffChange">len</span><span class="DiffChange">(jpgs),</span><span class="Identifier DiffChange">len</span><span class="DiffChange">(pdfs), opener)            </span>
+<span id="W1L60" class="LineNr"> 60 </span>
+<span id="W1L61" class="LineNr"> 61 </span>    <span class="Statement">if</span> dryrun:
+<span id="W1L62" class="LineNr"> 62 </span>        <span class="Statement">return</span>
+<span id="W1L63" class="LineNr"> 63 </span>
+<span id="W1L64" class="LineNr"> 64 </span><span class="DiffAdd"> </span><span class="DiffAdd">                                                                                                                      </span>
+<span id="W1L65" class="LineNr"> 65 </span>    <span class="Statement">for</span> k <span class="Statement">in</span> jpgs:
+<span id="W1L66" class="LineNr"> 66 </span>        <span class="Statement">del</span> d[<span class="String">'_attachments'</span>][k]
+<span id="W1L67" class="LineNr"> 67 </span>
+<span id="W1L68" class="LineNr"> 68 </span>    d[<span class="String">'openWith'</span>] = <span class="String">'PDF.js'</span>
+<span id="W1L69" class="LineNr"> 69 </span>
+<span id="W1L70" class="LineNr"> 70 </span>    <span class="Statement">return</span> database<span class="Normal">.</span>save(d)
+<span id="W1L71" class="LineNr"> 71 </span>
+<span id="W1L72" class="LineNr"> 72 </span>
+<span id="W1L73" class="LineNr"> 73 </span><span class="Statement">def</span> <span class="Identifier">delete_them_all</span>():
+<span id="W1L74" class="LineNr"> 74 </span>    alliter = db<span class="Normal">.</span><span class="Identifier">all</span>()
+<span id="W1L75" class="LineNr"> 75 </span>    <span class="Statement">import</span> itertools
+<span id="W1L76" class="LineNr"> 76 </span>    iters = itertools<span class="Normal">.</span>tee(alliter)
+<span id="W1L77" class="LineNr"> 77 </span>    ids = []
+<span id="W1L78" class="LineNr"> 78 </span>    <span class="Statement">for</span> d <span class="Statement">in</span> iters[<span class="Number">0</span>]:
+<span id="W1L79" class="LineNr"> 79 </span>        <span class="Identifier">id</span> = d<span class="Normal">.</span>get(<span class="String">'id'</span>)
+<span id="W1L80" class="LineNr"> 80 </span>        ids<span class="Normal">.</span>append(<span class="Identifier">id</span>)
+<span id="W1L81" class="LineNr"> 81 </span>        <span class="Identifier">print</span> <span class="Identifier">id</span>
+<span id="W1L82" class="LineNr"> 82 </span>    <span class="Identifier">len</span>(ids)
+<span id="W1L83" class="LineNr"> 83 </span>    ids2
+<span id="W1L84" class="LineNr"> 84 </span>    ids2=[]
+<span id="W1L85" class="LineNr"> 85 </span>    <span class="Statement">for</span> d <span class="Statement">in</span> iters[<span class="Number">1</span>]:
+<span id="W1L86" class="LineNr"> 86 </span>        <span class="Identifier">id</span> = d<span class="Normal">.</span>get(<span class="String">'id'</span>)
+<span id="W1L87" class="LineNr"> 87 </span>        ids2<span class="Normal">.</span>append(<span class="Identifier">id</span>)
+<span id="W1L88" class="LineNr"> 88 </span>
+<span id="W1L89" class="LineNr"> 89 </span><span class="Statement">if</span> <span class="Type">__name__</span> == <span class="String">'__main__'</span>:
+<span id="W1L90" class="LineNr"> 90 </span>
+<span id="W1L91" class="LineNr"> 91 </span>    server = sys<span class="Normal">.</span>argv[<span class="Number">1</span>]
+<span id="W1L92" class="LineNr"> 92 </span>    database = sys<span class="Normal">.</span>argv[<span class="Number">2</span>]
+<span id="W1L93" class="LineNr"> 93 </span>    attachment_name = sys<span class="Normal">.</span>argv[<span class="Number">3</span>]
+<span id="W1L94" class="LineNr"> 94 </span>
+<span id="W1L95" class="LineNr"> 95 </span>
+<span class="LineNr">    </span><span class="DiffDelete">-----------------------------------------------------------------------------------------------------------------------</span>
+<span class="LineNr">    </span><span class="DiffDelete">-----------------------------------------------------------------------------------------------------------------------</span>
+<span class="LineNr">    </span><span class="DiffDelete">-----------------------------------------------------------------------------------------------------------------------</span>
+<span class="LineNr">    </span><span class="DiffDelete">-----------------------------------------------------------------------------------------------------------------------</span>
+<span class="LineNr">    </span><span class="DiffDelete">-----------------------------------------------------------------------------------------------------------------------</span>
+<span class="LineNr">    </span><span class="DiffDelete">-----------------------------------------------------------------------------------------------------------------------</span>
+<span class="LineNr">    </span><span class="DiffDelete">-----------------------------------------------------------------------------------------------------------------------</span>
+<span class="LineNr">    </span><span class="DiffDelete">-----------------------------------------------------------------------------------------------------------------------</span>
+<span id="W1L96" class="LineNr"> 96 </span><span class="Comment">#    list_attachments(server,database)</span>
+<span id="W1L97" class="LineNr"> 97 </span>
+<span id="W1L98" class="LineNr"> 98 </span><span class="Comment">#</span>
+<span id="W1L99" class="LineNr"> 99 </span><span class="Comment">#doc = [d for d in docs if d['_id'] == 'bb7a908e3ca2cdad2681234e28019717'][0]</span>
+<span id="W1L100" class="LineNr">100 </span><span class="Comment">#</span>
+<span id="W1L101" class="LineNr">101 </span><span class="Comment">#attachments = [att for att in doc['_attachments'] if att.endswith('.jpg')]</span>
+<span id="W1L102" class="LineNr">102 </span><span class="Comment">#</span>
+<span id="W1L103" class="LineNr">103 </span><span class="Comment">#if not attachments:</span>
+<span id="W1L104" class="LineNr">104 </span><span class="Comment">#    print &quot;there are no attachments to delete&quot;</span>
+<span id="W1L105" class="LineNr">105 </span><span class="Comment">#    sys.exit(0)</span>
+<span id="W1L106" class="LineNr">106 </span><span class="Comment">#</span>
+<span id="W1L107" class="LineNr">107 </span><span class="Comment">#print &quot;all attachments&quot;</span>
+<span id="W1L108" class="LineNr">108 </span><span class="Comment">#</span>
+<span id="W1L109" class="LineNr">109 </span><span class="Comment">#for att in doc['_attachments'].keys():</span>
+<span id="W1L110" class="LineNr">110 </span><span class="Comment">#    if att.endswith(&quot;.jpg&quot;):</span>
+<span id="W1L111" class="LineNr">111 </span><span class="Comment">#        print &quot;db.delete_attachment({},{})&quot;.format(doc.get(&quot;_id&quot;),att)</span>
+<span id="W1L112" class="LineNr">112 </span><span class="Comment">#</span>
+<span id="W1L113" class="LineNr">113 </span><span class="Comment">#</span>
+<span id="W1L114" class="LineNr">114 </span><span class="Comment">#print &quot;\n\n\n&quot;</span>
+<span id="W1L115" class="LineNr">115 </span><span class="Comment">#print &quot;attempting to delete the one of them&quot;</span>
+<span id="W1L116" class="LineNr">116 </span><span class="Comment">#print &quot;\n\n\n&quot;</span>
+<span id="W1L117" class="LineNr">117 </span><span class="Comment">#</span>
+<span id="W1L118" class="LineNr">118 </span><span class="Comment">#if attachments:</span>
+<span id="W1L119" class="LineNr">119 </span><span class="Comment">#    print &quot;deleting %s&quot; % attachments[0]</span>
+<span id="W1L120" class="LineNr">120 </span><span class="Comment">#    db.delete_attachment(doc, attachments[0])</span>
+<span id="W1L121" class="LineNr">121 </span><span class="Comment">#    sys.exit(0)</span>
+<span id="W1L122" class="LineNr">122 </span><span class="Comment">#</span>
+<span id="W1L123" class="LineNr">123 </span><span class="Comment">#</span>
+<span id="W1L124" class="LineNr">124 </span><span class="Comment">#</span>
+<span id="W1L125" class="LineNr">125 </span><span class="Comment">##att = d['_attachments'].keys()[0]</span>
+<span id="W1L126" class="LineNr">126 </span><span class="Comment">##</span>
+<span id="W1L127" class="LineNr">127 </span><span class="Comment">##print 'deleting att</span>
+<span id="W1L128" class="LineNr">128 </span><span class="Comment">##</span>
+<span id="W1L129" class="LineNr">129 </span><span class="Comment">##db.delete_attachment(d,d['_attachments'][0])</span>
+<span id="W1L130" class="LineNr">130 </span><span class="Comment">#</span>
+</pre>
+</div></td>
+<td valign="top"><div>
+<pre>
+<span id="W2L1" class="LineNr">  1 </span><span class="Statement">import</span> pycouchdb
+<span id="W2L2" class="LineNr">  2 </span><span class="Statement">import</span> time
+<span id="W2L3" class="LineNr">  3 </span><span class="Statement">import</span> sys
+<span id="W2L4" class="LineNr">  4 </span><span class="Statement">import</span> pprint
+<span id="W2L5" class="LineNr">  5 </span>
+<span id="W2L6" class="LineNr">  6 </span>reload(sys)
+<span id="W2L7" class="LineNr">  7 </span>sys<span class="Normal">.</span>setdefaultencoding(<span class="String">'utf-8'</span>)
+<span id="W2L8" class="LineNr">  8 </span>
+<span id="W2L9" class="LineNr">  9 </span>
+<span id="W2L10" class="LineNr"> 10 </span>
+<span id="W2L11" class="LineNr"> 11 </span><span class="Statement">def</span> <span class="Identifier">list_attachments</span>(host, database):
+<span id="W2L12" class="LineNr"> 12 </span>
+<span id="W2L13" class="LineNr"> 13 </span>    server = pycouchdb<span class="Normal">.</span>Server(host)
+<span id="W2L14" class="LineNr"> 14 </span>    db = server<span class="Normal">.</span>database(database)
+<span id="W2L15" class="LineNr"> 15 </span>
+<span id="W2L16" class="LineNr"> 16 </span>    resources = <span class="Identifier">list</span>(db<span class="Normal">.</span><span class="Identifier">all</span>())
+<span id="W2L17" class="LineNr"> 17 </span>    docs = [r<span class="Normal">.</span>get(<span class="String">'doc'</span>) <span class="Statement">for</span> r <span class="Statement">in</span> resources <span class="Statement">if</span> r[<span class="String">'doc'</span>]<span class="Normal">.</span>get(<span class="String">&quot;title&quot;</span>)]
+<span id="W2L18" class="LineNr"> 18 </span>
+<span id="W2L19" class="LineNr"> 19 </span>    <span class="Comment">#attachments = [att for att in doc['_attachments'] if att.endswith('.jpg')]</span>
+<span id="W2L20" class="LineNr"> 20 </span>    <span class="Statement">for</span> i,d <span class="Statement">in</span> <span class="Identifier">enumerate</span>(docs):
+<span id="W2L21" class="LineNr"> 21 </span>        <span class="Identifier">print</span> <span class="String">&quot;{}</span><span class="Special">\t</span><span class="String">{}/_utils/document.html?{}/{}</span><span class="Special">\t</span><span class="String">{}&quot;</span><span class="Normal">.</span><span class="Identifier">format</span>(i, host, database, d<span class="Normal">.</span>get(<span class="String">'_id'</span>), d<span class="Normal">.</span>get(<span class="String">'openWith'</span>,<span class="String">''</span>))
+<span id="W2L22" class="LineNr"> 22 </span>        <span class="Statement">if</span> <span class="String">'title'</span> <span class="Statement">not</span> <span class="Statement">in</span> d:
+<span id="W2L23" class="LineNr"> 23 </span>            <span class="Identifier">next</span>
+<span id="W2L24" class="LineNr"> 24 </span>        <span class="Statement">for</span> att <span class="Statement">in</span> d<span class="Normal">.</span>get(<span class="String">'_attachments'</span>,{}):
+<span id="W2L25" class="LineNr"> 25 </span>            <span class="Identifier">print</span> <span class="String">'{}</span><span class="Special">\t</span><span class="String">{}</span><span class="Special">\t</span><span class="String">{}</span><span class="Special">\t</span><span class="String">{}/{}'</span><span class="Normal">.</span><span class="Identifier">format</span>(d<span class="Normal">.</span>get(<span class="String">'openWith'</span>),<span class="Identifier">len</span>(d<span class="Normal">.</span>get(<span class="String">'_attachments'</span>,{})),d[<span class="String">'_id'</span>], d<span class="Normal">.</span>get(<span class="String">'title'</span>), att)
+<span id="W2L26" class="LineNr"> 26 </span>        <span class="Identifier">print</span>
+<span id="W2L27" class="LineNr"> 27 </span>
+<span id="W2L28" class="LineNr"> 28 </span>
+<span id="W2L29" class="LineNr"> 29 </span>
+<span id="W2L30" class="LineNr"> 30 </span>
+<span id="W2L31" class="LineNr"> 31 </span>
+<span id="W2L32" class="LineNr"> 32 </span><span class="Statement">def</span> <span class="Identifier">delete_attachments_and_update_openwith</span>(database, d, dryrun=<span class="Statement">True</span>):
+<span id="W2L33" class="LineNr"> 33 </span>
+<span id="W2L34" class="LineNr"> 34 </span>    d<span class="Normal">.</span>get(<span class="String">'_id'</span>)
+<span id="W2L35" class="LineNr"> 35 </span>    keys = d<span class="Normal">.</span>get(<span class="String">'_attachments'</span>,{})<span class="Normal">.</span>keys()
+<span id="W2L36" class="LineNr"> 36 </span>
+<span id="W2L37" class="LineNr"> 37 </span>    opener = d<span class="Normal">.</span>get(<span class="String">'openWith'</span>)
+<span id="W2L38" class="LineNr"> 38 </span>
+<span id="W2L39" class="LineNr"> 39 </span>    jpgs = [k <span class="Statement">for</span> k <span class="Statement">in</span> keys <span class="Statement">if</span> k<span class="Normal">.</span>endswith(<span class="String">'.jpg'</span>)]
+<span id="W2L40" class="LineNr"> 40 </span>    pdfs = [k <span class="Statement">for</span> k <span class="Statement">in</span> keys <span class="Statement">if</span> k<span class="Normal">.</span>endswith(<span class="String">'.pdf'</span>)]
+<span id="W2L41" class="LineNr"> 41 </span>
+<span id="W2L42" class="LineNr"> 42 </span>    <span class="Comment">#print &quot;id: {} jpgs:{} pdfs:{} openwith:{}&quot;.format(d.get('_id'),len(jpgs),len(pdfs), opener)</span>
+<span id="W2L43" class="LineNr"> 43 </span>
+<span id="W2L44" class="LineNr"> 44 </span>    bail = <span class="Statement">False</span>
+<span id="W2L45" class="LineNr"> 45 </span>
+<span id="W2L46" class="LineNr"> 46 </span>    <span class="Statement">if</span> <span class="Statement">not</span> jpgs:
+<span id="W2L47" class="LineNr"> 47 </span>        bail = <span class="Statement">True</span>
+<span id="W2L48" class="LineNr"> 48 </span>
+<span id="W2L49" class="LineNr"> 49 </span>    <span class="Statement">if</span> <span class="Statement">not</span> pdfs:
+<span id="W2L50" class="LineNr"> 50 </span>        bail = <span class="Statement">True</span>
+<span id="W2L51" class="LineNr"> 51 </span>
+<span id="W2L52" class="LineNr"> 52 </span>    <span class="Statement">if</span> opener != <span class="String">'Bell-Reader'</span>:
+<span id="W2L53" class="LineNr"> 53 </span>        bail = <span class="Statement">True</span>
+<span id="W2L54" class="LineNr"> 54 </span>
+<span id="W2L55" class="LineNr"> 55 </span>
+<span id="W2L56" class="LineNr"> 56 </span>    <span class="Statement">if</span> bail:
+<span id="W2L57" class="LineNr"> 57 </span><span class="DiffChange">        </span><span class="Identifier DiffChange">print</span><span class="DiffChange"> </span><span class="String DiffChange">&quot;SKIP</span><span class="Special DiffText">\t</span><span class="String DiffText">id: {}</span><span class="Special DiffText">\t</span><span class="String DiffText">jpgs:{}</span><span class="Special DiffText">\t</span><span class="String DiffText">pdfs:{}</span><span class="Special DiffText">\t</span><span class="String DiffChange">openwith:{}&quot;</span><span class="Normal DiffChange">.</span><span class="Identifier DiffChange">format</span><span class="DiffChange">(d</span><span class="Normal DiffChange">.</span><span class="DiffChange">get(</span><span class="String DiffChange">'_id'</span><span class="DiffChange">),</span><span class="Identifier DiffChange">len</span><span class="DiffChange">(jpgs),</span><span class="Identifier DiffChange">len</span><span class="DiffChange">(pdfs), opener)           </span>
+<span id="W2L58" class="LineNr"> 58 </span>    <span class="Statement">else</span>:
+<span id="W2L59" class="LineNr"> 59 </span><span class="DiffChange">        </span><span class="Identifier DiffChange">print</span><span class="DiffChange"> </span><span class="String DiffChange">&quot;DELETE</span><span class="Special DiffText">\t</span><span class="String DiffText">id: {}</span><span class="Special DiffText">\t</span><span class="String DiffText">jpgs:{}</span><span class="Special DiffText">\t</span><span class="String DiffText">pdfs:{}</span><span class="Special DiffText">\t</span><span class="String DiffChange">openwith:{}&quot;</span><span class="Normal DiffChange">.</span><span class="Identifier DiffChange">format</span><span class="DiffChange">(d</span><span class="Normal DiffChange">.</span><span class="DiffChange">get(</span><span class="String DiffChange">'_id'</span><span class="DiffChange">),</span><span class="Identifier DiffChange">len</span><span class="DiffChange">(jpgs),</span><span class="Identifier DiffChange">len</span><span class="DiffChange">(pdfs), opener)         </span>
+<span id="W2L60" class="LineNr"> 60 </span>
+<span id="W2L61" class="LineNr"> 61 </span>    <span class="Statement">if</span> dryrun:
+<span id="W2L62" class="LineNr"> 62 </span>        <span class="Statement">return</span>
+<span id="W2L63" class="LineNr"> 63 </span>
+<span class="LineNr">    </span><span class="DiffDelete">-----------------------------------------------------------------------------------------------------------------------</span>
+<span id="W2L64" class="LineNr"> 64 </span>    <span class="Statement">for</span> k <span class="Statement">in</span> jpgs:
+<span id="W2L65" class="LineNr"> 65 </span>        <span class="Statement">del</span> d[<span class="String">'_attachments'</span>][k]
+<span id="W2L66" class="LineNr"> 66 </span>
+<span id="W2L67" class="LineNr"> 67 </span>    d[<span class="String">'openWith'</span>] = <span class="String">'PDF.js'</span>
+<span id="W2L68" class="LineNr"> 68 </span>
+<span id="W2L69" class="LineNr"> 69 </span>    <span class="Statement">return</span> database<span class="Normal">.</span>save(d)
+<span id="W2L70" class="LineNr"> 70 </span>
+<span id="W2L71" class="LineNr"> 71 </span>
+<span id="W2L72" class="LineNr"> 72 </span><span class="Statement">def</span> <span class="Identifier">delete_them_all</span>():
+<span id="W2L73" class="LineNr"> 73 </span>    alliter = db<span class="Normal">.</span><span class="Identifier">all</span>()
+<span id="W2L74" class="LineNr"> 74 </span>    <span class="Statement">import</span> itertools
+<span id="W2L75" class="LineNr"> 75 </span>    iters = itertools<span class="Normal">.</span>tee(alliter)
+<span id="W2L76" class="LineNr"> 76 </span>    ids = []
+<span id="W2L77" class="LineNr"> 77 </span>    <span class="Statement">for</span> d <span class="Statement">in</span> iters[<span class="Number">0</span>]:
+<span id="W2L78" class="LineNr"> 78 </span>        <span class="Identifier">id</span> = d<span class="Normal">.</span>get(<span class="String">'id'</span>)
+<span id="W2L79" class="LineNr"> 79 </span>        ids<span class="Normal">.</span>append(<span class="Identifier">id</span>)
+<span id="W2L80" class="LineNr"> 80 </span>        <span class="Identifier">print</span> <span class="Identifier">id</span>
+<span id="W2L81" class="LineNr"> 81 </span>    <span class="Identifier">len</span>(ids)
+<span id="W2L82" class="LineNr"> 82 </span>    ids2
+<span id="W2L83" class="LineNr"> 83 </span>    ids2=[]
+<span id="W2L84" class="LineNr"> 84 </span>    <span class="Statement">for</span> d <span class="Statement">in</span> iters[<span class="Number">1</span>]:
+<span id="W2L85" class="LineNr"> 85 </span>        <span class="Identifier">id</span> = d<span class="Normal">.</span>get(<span class="String">'id'</span>)
+<span id="W2L86" class="LineNr"> 86 </span>        ids2<span class="Normal">.</span>append(<span class="Identifier">id</span>)
+<span id="W2L87" class="LineNr"> 87 </span>
+<span id="W2L88" class="LineNr"> 88 </span><span class="Statement">if</span> <span class="Type">__name__</span> == <span class="String">'__main__'</span>:
+<span id="W2L89" class="LineNr"> 89 </span>
+<span id="W2L90" class="LineNr"> 90 </span>    server = sys<span class="Normal">.</span>argv[<span class="Number">1</span>]
+<span id="W2L91" class="LineNr"> 91 </span>    database = sys<span class="Normal">.</span>argv[<span class="Number">2</span>]
+<span id="W2L92" class="LineNr"> 92 </span>    attachment_name = sys<span class="Normal">.</span>argv[<span class="Number">3</span>]
+<span id="W2L93" class="LineNr"> 93 </span>
+<span id="W2L94" class="LineNr"> 94 </span>
+<span id="W2L95" class="LineNr"> 95 </span><span class="DiffAdd">    server = pycouchdb</span><span class="Normal DiffAdd">.</span><span class="DiffAdd">Server(server)                                                                                  </span>
+<span id="W2L96" class="LineNr"> 96 </span><span class="DiffAdd">    db = server</span><span class="Normal DiffAdd">.</span><span class="DiffAdd">database(</span><span class="String DiffAdd">'sturesources'</span><span class="DiffAdd">)                                                                               </span>
+<span id="W2L97" class="LineNr"> 97 </span><span class="DiffAdd">    docs = </span><span class="Identifier DiffAdd">list</span><span class="DiffAdd">(db</span><span class="Normal DiffAdd">.</span><span class="Identifier DiffAdd">all</span><span class="DiffAdd">())                                                                                              </span>
+<span id="W2L98" class="LineNr"> 98 </span><span class="DiffAdd"> </span><span class="DiffAdd">                                                                                                                      </span>
+<span id="W2L99" class="LineNr"> 99 </span><span class="DiffAdd">    </span><span class="Statement DiffAdd">for</span><span class="DiffAdd"> d </span><span class="Statement DiffAdd">in</span><span class="DiffAdd"> docs:                                                                                                     </span>
+<span id="W2L100" class="LineNr">100 </span><span class="DiffAdd">        delete_attachments_and_update_openwith(db,d</span><span class="Normal DiffAdd">.</span><span class="DiffAdd">get(</span><span class="String DiffAdd">'doc'</span><span class="DiffAdd">),dryrun=</span><span class="Statement DiffAdd">True</span><span class="DiffAdd">)                                            </span>
+<span id="W2L101" class="LineNr">101 </span><span class="DiffAdd"> </span><span class="DiffAdd">                                                                                                                      </span>
+<span id="W2L102" class="LineNr">102 </span><span class="DiffAdd"> </span><span class="DiffAdd">                                                                                                                      </span>
+<span id="W2L103" class="LineNr">103 </span><span class="Comment">#    list_attachments(server,database)</span>
+<span id="W2L104" class="LineNr">104 </span>
+<span id="W2L105" class="LineNr">105 </span><span class="Comment">#</span>
+<span id="W2L106" class="LineNr">106 </span><span class="Comment">#doc = [d for d in docs if d['_id'] == 'bb7a908e3ca2cdad2681234e28019717'][0]</span>
+<span id="W2L107" class="LineNr">107 </span><span class="Comment">#</span>
+<span id="W2L108" class="LineNr">108 </span><span class="Comment">#attachments = [att for att in doc['_attachments'] if att.endswith('.jpg')]</span>
+<span id="W2L109" class="LineNr">109 </span><span class="Comment">#</span>
+<span id="W2L110" class="LineNr">110 </span><span class="Comment">#if not attachments:</span>
+<span id="W2L111" class="LineNr">111 </span><span class="Comment">#    print &quot;there are no attachments to delete&quot;</span>
+<span id="W2L112" class="LineNr">112 </span><span class="Comment">#    sys.exit(0)</span>
+<span id="W2L113" class="LineNr">113 </span><span class="Comment">#</span>
+<span id="W2L114" class="LineNr">114 </span><span class="Comment">#print &quot;all attachments&quot;</span>
+<span id="W2L115" class="LineNr">115 </span><span class="Comment">#</span>
+<span id="W2L116" class="LineNr">116 </span><span class="Comment">#for att in doc['_attachments'].keys():</span>
+<span id="W2L117" class="LineNr">117 </span><span class="Comment">#    if att.endswith(&quot;.jpg&quot;):</span>
+<span id="W2L118" class="LineNr">118 </span><span class="Comment">#        print &quot;db.delete_attachment({},{})&quot;.format(doc.get(&quot;_id&quot;),att)</span>
+<span id="W2L119" class="LineNr">119 </span><span class="Comment">#</span>
+<span id="W2L120" class="LineNr">120 </span><span class="Comment">#</span>
+<span id="W2L121" class="LineNr">121 </span><span class="Comment">#print &quot;\n\n\n&quot;</span>
+<span id="W2L122" class="LineNr">122 </span><span class="Comment">#print &quot;attempting to delete the one of them&quot;</span>
+<span id="W2L123" class="LineNr">123 </span><span class="Comment">#print &quot;\n\n\n&quot;</span>
+<span id="W2L124" class="LineNr">124 </span><span class="Comment">#</span>
+<span id="W2L125" class="LineNr">125 </span><span class="Comment">#if attachments:</span>
+<span id="W2L126" class="LineNr">126 </span><span class="Comment">#    print &quot;deleting %s&quot; % attachments[0]</span>
+<span id="W2L127" class="LineNr">127 </span><span class="Comment">#    db.delete_attachment(doc, attachments[0])</span>
+<span id="W2L128" class="LineNr">128 </span><span class="Comment">#    sys.exit(0)</span>
+<span id="W2L129" class="LineNr">129 </span><span class="Comment">#</span>
+<span id="W2L130" class="LineNr">130 </span><span class="Comment">#</span>
+<span id="W2L131" class="LineNr">131 </span><span class="Comment">#</span>
+<span id="W2L132" class="LineNr">132 </span><span class="Comment">##att = d['_attachments'].keys()[0]</span>
+<span id="W2L133" class="LineNr">133 </span><span class="Comment">##</span>
+<span id="W2L134" class="LineNr">134 </span><span class="Comment">##print 'deleting att</span>
+<span id="W2L135" class="LineNr">135 </span><span class="Comment">##</span>
+<span id="W2L136" class="LineNr">136 </span><span class="Comment">##db.delete_attachment(d,d['_attachments'][0])</span>
+<span id="W2L137" class="LineNr">137 </span><span class="Comment">#</span>
+</pre>
+</div></td>
+</tr>
+</table>
+</body>
+</html>
+<!-- vim: set foldmethod=manual : -->
+
