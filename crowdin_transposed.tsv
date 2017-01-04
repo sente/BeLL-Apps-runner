@@ -1,0 +1,642 @@
+file	Arabic.txt	English.txt	Spanish.txt	Urdu.txt
+Joined_Success	تمت الإضافة بنجاح	Successfully joined.	Se unió con éxito.	کامیابی کے ساتھ شمولیت اختیار کی ھے
+Mail_Sent_Success	تم إرسال الرسالة بنجاح	Mail successfully sent.	Correo enviado con éxito.	ای میل کامیابی سے بھیجی جا چکی ہے
+MeetUp_Desc_Missing	شرح عن الاجتماع مفقود	Meetup description is missing.	Falta la descripción del MeetUp.	اجلاس کی تفصیل غائب ہے
+Title	عنوان	Title	Título	عنوان
+Issue_Duplicate	رقم النسخة موجود سابقاً	Issue number already exists.	Ya existe el número.	یہ ایشو پہلے ہی موجود ہے
+IssueNumber	رقم النسخة/النشرة	Issue Number	Issue Number	ایشو نمبر
+Save_Quiz	حفظ الاختبار	Save Quiz	Guardar prueba	ٹیسٹ محفوظ کریں
+Progress	تقدم	Progress	Progreso	پیش رفت
+Highest_Rated	تصنيفها من أعلى	Highest Rated	La mejor nota	سب سے زیادہ درجہ بندی
+Edit_Member	تحرير عضو	Edit Member	Editar miembros	رکن کی ترمیم
+select_communities	اختيار مجموعة/مجموعات	Select Community('ies)	Select Community('ies)	Select Community('ies)
+Registered_Members	الأعضاء المسجلين	Registered Members	Miembros registrados	رجسٹرڈ اراکین
+downloaded_by	تم التحميل بواسطة	Downloaded By	Downloaded By	Downloaded By
+FeedbackSaved_Not_Resource	تم حفظ ملاحظتك بنجاح، المعلومات موجودة في الألبوم سابقاً	Successfully saved feedback. Resource already in shelf.	La retroalimentación se guardó con éxito y este recurso ya está en el estante.	کامیابی کے ساتھ آپ کی رائے محفوظ ہو چکی ہے، ریسورس شیلف میں پہلے سے ہی موجود ہے۔
+Step	مرحلة	Step	Paso	مرحلہ
+New_Step	خطوة جديدة	New Step	Paso nuevo	نیا مرحلہ
+No_Member_Found	No members have been found for the selected options	No members have been found for the selected options	No members have been found for the selected options	No members have been found for the selected options
+Day	يوم	Day	Día	دن
+Added_Success	تمت الإضافة بنجاح	Added successfully.	Agregado con éxito.	کامیابی سے شامل ہو گیا ہے
+Nation_Bell	بيل الدولي	Nation Bell	Nation Bell	Nation Bell
+Config_Saved	تم حفظ الإعدادات	Configuration saved.	Configuración guardada.	تشکیلات محفوظ ھو چکی ہیں
+Region	منطقة	Region	Lugar	علاقہ
+Confirm_Survey	هل أنت متأكد من أنك تريد حذف هذا المجلد/البحث؟	Are you sure you want to delete this survey?	¿Desea eliminar esta encuesta?	کیا آپ کو یقین ہے کہ آپ یہ سروے حذف کرنا چاہتے ہیں؟
+visits_past_twelve_months	مجموع عدد الزيارات في الأشهر 12 الماضية	Total Visits Past 12 Months	Total de visitas en los últimos 12 meses	کل گزشتہ 12 ماہ کا دورہ
+No_Course_Pub	لا يوجد دورة تدريبية في هذه النشرة	No Course in this publication	No Course in this publication	No Course in this publication
+courseFull_msg	اكتمل عدد هذه الدورة التدريبية	this Course Was Full.	this Course Was Full.	یہ کورس مکمل ہے
+Event_Updated_Success	تم تحديث الموضوع بنجاح	Event successfully updated.	Evento actualizado con éxito.	تقریب کامیابی سے اپ ڈیٹ ھو چکی ھے
+Confirm_Resource	هل أنت متأكد من أنك تريد حذف هذا المجلد؟	Are you sure you want to delete this resource?	¿Desea eliminar este recurso?	کیا آپ کو یقین ہے کہ آپ اس ریسورس کو حذف کرنا چاہتے ہیں؟
+time_Limit	لديك 20 ثانية	You have 20 seconds	Tienes 20 segundos	آپ کے پاس 20 سیکنڈ ہیں
+Nation_reports	التقارير الدولية	Nation's Reports	Nation's Reports	Nation's Reports
+Members_Count	عدد الأعضاء	Members Count	Cuenta de los miembros	اراکین کا شمار
+level	مستوى (مستويات)	Level(s)	Nivel(es)	درجہ
+Course_Admission_Req	طلب قبول في الدورة التدريبية	Course Admission Request	Requisitos de admisión del curso	کورس میں داخلہ کی درخواست
+TempApp_Replication_Error	فشل نسخ التطبيقات المؤقتة	Temp apps replication failed.	No se reprodujeron las aplicaciones temporales.	عارضی ایپس نقل کرنے میں ناکامی
+AddCourse_To_pubs_Failed	تعذر إضافة الدورة التدريبية إلى النشر	Failed to add the course to the publication.	Error al añadir el curso a la publicación.	کورس کو اشاعت میں شامل کرنے میں ناکامی ہے
+Course	درس/ دورة تدريبية	Course	Curso	 کورس
+Tag	إشارات	Tag	Etiqueta	ٹیگ
+Updated_NewVersion_Success	تم تحديثه للإصدار الأخير بنجاح	Successfully updated to latest version.	Actualizó con éxito la última versión.	تازہ ترین ورژن تک کامیابی سے اپ ڈیٹ ہو چکی ہے
+DeleteLabel	حذف	Delete	Borrar	حذف
+Course_Added_Dashboard	تمت إضافة الدورة التدريبية إلى لوحة المعلومات الخاصة بك	Course added to your dashboard.	Curso añadido a tu panel de control.	کورس کو آپ کے ڈیش بورڈ میں شامل کر دیا ھے
+Resource_Success_Added	Resource is Successfully added to library	Resource is Successfully added to library	Resource is Successfully added to library	Resource is Successfully added to library
+LanguagesDb_Creation_Error	فشل في إنشاء قاعدة بيانات اللغات	Failed to create languages database.	Error al crear la base de datos de idiomas.	زبانوں کی ڈیٹا بیس بنانے میں ناکامی ہے
+checkAll	اختر الكل	Check All	Marcar todas	تمام چیک کریں
+Browse	تصفح	Browse	Ver	سال
+Error_UserCourse_Details	لم يتم العثور على بيانات متعلقة في الدورة التدريبية المختارة	No data related to selected course found.	No se encontraron datos del curso seleccionado.	متعلقہ کورس کے لئے کوائف موجود نہیں
+Label	عنوان	Label	Label	لیبل
+Version	نسخة	Version	Version	ورژن
+Library	مكتبة	Library	Biblioteca	لائبریری
+Birdeye_View	نظرة عامة	Bird's Eye View	Vista panorámica	مجموعی جائزہ
+MeetUp	اجتماع	Meetup	MeetUp	اجلاس
+nameOfLanguage	Arabic	English	Spanish	Urdu
+Quiz_Saved_Success	تم حفظ الاختبار بنجاح	Quiz successfully saved.	Prueba guardada con éxito.	ٹیسٹ کامیابی سے محفوظ ہوچکا ہے
+Last_Publications	المنشورات الأخيرة	Last Publications	Last Publications	Last Publications
+Collections_Merge_Success	تم دمج اختياراتك بنجاح	Collections merge successfully	Las colecciones se combinaron con éxito.	مجموعے کو کامیابی کے ساتھ ضم کرلیا گیا ھے
+last_sync_date	تاريخ مزامنة آخر نشاط	Last Activity sync Date	Last Activity sync Date	Last Activity sync Date
+Passing_Percentage	نسبة النجاح	Passing Percentage	Porcentaje de aprobación	کامیابی کا تناسب
+Resources_Added_Success	تمت إضافة المعلومات بنجاح	Your resources have been added successfully.	Sus recursos se añadieron con éxito.	آپ کے ریسورسز کو کامیابی سے شامل کر لیا ہے
+Course_Members	أعضاء الدورة التدريبية	Course Members	Miembros del curso	کورس کے ارکان
+Survey_Title	عنوان البحث	Survey Title	Survey Title	Survey Title
+Select_Language	اختر اللغة	Select Language	Select Language	زبان منتخب کریں
+Become_a_member	تصبح عضوا	Become a Member	Ser miembro	رکن بنیے
+Member_Limit	الحد الأقصى للعضو	Member Limit	Límite de miembros	اراکین کی حد
+Error_Course_Report	لا توجد بيانات الموجودة على الخادم	No data found on server.	No se encuentran datos en el servidor.	سرور پر ڈیٹا نہیں ملا
+Survey_Error_Message_For_Required_Questions	Please provide all the answers to required questions	Please provide all the answers to required questions	Please provide all the answers to required questions	Please provide all the answers to required questions
+Back	سابق	Back	Volver	پیچھے
+Course_Created_Success	تم خلق الدورة التدريبية بنجاح	Course successfully created.	Curso creado con éxito.	کورس کامیابی کے ساتھ بن گیا ھے
+action	إجراء	Action	Acción	کارروائی
+Home	الصفحة الرئيسة	Home	Inicio	ہوم
+No_Option_Selected	لم يتم الاختيار	No option selected.	No seleccionó la opción.	کوئی آپشن منتخب نہیں کی
+resource_type	نوع المورد - نوع المادة	Resource Type	Tipo de recurso	ريسورس کی قسم
+Category	فئة	Category	Categoría	قسم
+duplicate_surveyNo	رقم البحث موجود سابقاً	SurveyNo already exist	SurveyNo already exist	سروے نمبر پہلے ہی موجود ہے
+Send_Publication	إرسال النشرة	Send Publication	Send Publication	Send Publication
+Admission	قبول	Admission	Admisión	داخلہ
+Assignment_Submitted	تم الإرسال بنجاح	Assignment successfully submitted.	Tarea enviada con éxito.	تفویض کامیابی کے ساتھ جمع ھو چکی ہے
+Submit_Configurations	ضبط الإعدادات	Submit Configurations	Submit Configurations	تشکیلات جمع کرائیں
+Member	عضو	Member	Miembro	رکن
+Course_Details	تفاصيل الدورة التدريبية	Course Details	Detalles del curso	کورس کی تفصیلات
+Exit	خروج	Exit	Salir	خروج
+Resign	الاستقالة	Resign	Abandonar	مستعفی
+Synced_Success	تمت المزامنة بنجاح	Synced successfully	Sincronizado con éxito.	کامیابی سے مطابقت پذیر ہو گۓ ہیں
+member_delete_confirm	هل أنت متأكد من أنك تريد حذف هذا العضو؟	Are you sure that you want to delete this member?	¿Desea eliminar a este miembro?	کیا آپ کو یقین ہے کہ آپ اس رکن کو حذف کرنا چاہتے ہیں؟
+New_Publication_Issue	إصدار نشرة جديد	New Publication Issue	New Publication Issue	New Publication Issue
+Welcome_Video	Welcome Video	Welcome Video	Welcome Video	Welcome Video
+Adm_req_accepted	تم قبول طلب الإنضمام	Admission Request Accepted	Admission Request Accepted	داخلہ کی درخواست قبول کر لی ہے
+Status	الحالة	Status	Estado.	حالت
+Grade_Level	المستوى الدراسي	Grade Level	Nivel de grado	Grade Level
+TrendReport_msg	التقرير يدل على انتهاء	Trend report ending:	Conclusión del informe de tendencias:	رپورٹ ختم ہونے کا رجحان:
+Females	الإناث	Females	Mujeres	خواتین
+Survey_Error_Message	الرجاء كتابة جميع الأجوبة أولاً	Please provide all the answers first	Please provide all the answers first	براہ مہربانی پہلے سارے جوابات فراہم کریں
+No_Resource_Found	لم يتم العثور على نتائج نتائج	No Resource Found	No está el recurso	ریسورس نہیں ملا
+No_Requests	لا يوجد طلبات	No Requests	Sin solicitudes	درخواستیں نہیں ہیں
+Removed_Member	تم حذف العضو من الدورة التدريبية	Member is removed From course.	Se elimina el miembro del curso.	رکن کوکورس سے ہٹا دیا ہے
+Course_Leader	مدير الدورة التدريبية	Course Leader	Coordinador del curso	کورس کا رہنما
+Include_Admins	Include Admins	Include Admins	Include Admins	Include Admins
+Confirm_Course	Are you sure you want to delete this Course?	Are you sure you want to delete this Course?	Are you sure you want to delete this Course?	Are you sure you want to delete this Course?
+Generate_Report	إصدار تقرير	Generate Report	Generar informe	رپورٹ تیار کریں
+Levels	مستويات	Levels	Niveles	لیولز
+Survey_Success_Message	تم إرسال البحث بنجاح	Survey has been submitted successfully	Survey has been submitted successfully	سروے کامیابی سے ارسال کردیا گیا ہے
+Title_TrendActivity	تقرير النشاطات - خلال الأشهر الستة السابقة	Trend Activity Report (Previous Six Months)	Informe de actividades de tendencias (seis meses anteriores)	رجحان سرگرمی رپورٹ (پچھلے چھ ماہ)
+Release_Notes	ملاحظات الإصدار	Release Notes	Notas de la versión	 ریلیز نوٹس
+Confirm_Collection	هل أنت متأكد من أنك تريد حذف هذه المجموعة؟	Are you sure you want to delete this collection?	¿Desea eliminar esta colección?	کیا آپ کو یقین ہے کہ آپ یہ مجموعہ حذف کرنا چاہتے ہیں؟
+Local_Resources	Local Resources	Local Resources	Local Resources	Local Resources
+Enter_Question	أدخل سؤالك هنا	Enter your question here.	Escriba aquí su pregunta.	اپنے سوال کو یہاں درج کریں
+pls_select_language	Please select language	Please select language	Please select language	Please select language
+Add_To_Pub	إضافة إلى النشرة	Add To Publication	Add To Publication	Add To Publication
+Version_No	رقم النسخة	Version No.	Version No.	Version No.
+Merge	دمج	Merge	Combinar	ضم
+Time	وقت	Time	Hora	وقت
+Response_Error	حدث خطأ في الحصول على جواب من النظام. الرجاء المحاولة مرة أخرى	There was an error in getting a response from the server. Please try again.	Hubo un error al obtener una respuesta del servidor. Inténtelo de nuevo.	سرور سے جوابی عمل حاصل کرنے میں نقص ہے ۔ براہ مہربانی دوبارہ کوشش کریں ۔
+same_as_admin	Same as Administrator	Same as Administrator	Same as Administrator	Same as Administrator
+request_Accepted_already	لقد قمت بقبول هذه الدعوة	You have accepted this request.	You have accepted this request.	آپ نے یہ درخواست قبول کر لی ہے ۔
+View_Details	عرض التفاصيل	View Details	Ver más detalles	تفصیلات دیکھیں
+Feedback	ملاحظاتفعل	Feedback	Retroalimentación	آپ کی رائے
+No_members_found	No members found	No members found	No members found	No members found
+Survey_Alert	لديك بحث جديد، الرجاء إرسال إجابتك	You have a new survey, please submit your response	You have a new survey, please submit your response	You have a new survey, please submit your response
+Period	الفترة	Period	Período	دورانیہ
+Enter_Option	أدخل خيار	Enter Option	Ingrese la opción	آپشن شامل کریں
+My_Tutors	المعلمون	My Tutors	Mis tutores	میرے ٹیوٹر
+Down	أسفل	Down	Abajo	نیچے
+delete_alert	Are you sure you want to upload this resource?	Are you sure you want to upload this resource?	Are you sure you want to upload this resource?	Are you sure you want to upload this resource?
+Nation_Visible	Nation is visible	Nation is visible	Nation is visible	Nation is visible
+searchMessages	البحث في الرسائل	Search Messages	Search Messages	تلاش پیغامات
+Roles	Roles	Roles	Roles	Roles
+Resource_Level_Missing	معلومات المجلد مفقودة	Resource level is missing.	Falta el nivel de recursos.	ریسورس کا لیول غائب ہے
+Add_Survey	إضافة بحث	Add Survey	Add Survey	سروے کا ا ضافہ کریں
+atleast_two_options	الرجاء تزويدنا بإجابتين/خيارين على الأقل	Please provide atleast two options	Please provide atleast two options	Please provide atleast two options
+Bell_Email	البريد الالكتروني الخاص في بيل	BeLL Email	Correo de BeLL	بیل ای میل
+Invalid_Attachment	المرفق غير صالح	Invalid attachment.	Archivo adjunto no válido	غلط منسلکہدستاویز
+Check_Sync	Update status	Update status	Update status	Update status
+Details	تفاصيل	Details	Detalles	تفصیلات
+FeedBack_Sent_success	تم إرسال الملاحظات بنجاح	Feedback successfully sent.	Retroalimentación enviada con éxito.	آپ کی رائے کو کامیابی سے بھیج دیا ہے
+Invitation_Type	نوع الدعوة	Invitation Type	Tipo de invitación	دعوت نامے کی قسم
+start_new_meetUp	البدء باجتماع جديد	Start a New Meetup	Inicia un Meetup nuevo	ایک نیا اجلاس شروع کریں
+Invalid_Email_Address	عنوان البريد الإلكتروني غير صحيح	Invalid mail address	Dirección de correo electrónico no válida.	ای میل ایڈریس صحیح نہیں ہے
+Course_Existing_Dashboard	تمت إضافة الدورة التدريبية مسبقاً إلى لوحة المعلومات الخاصة بك	Course already added to your dashboard.	Este curso ya está en tu panel de control.	کورس پہلے ہی آپ کے ڈیش بورڈ میں شامل ھے
+question_Saved	لقد تم حفظ السؤال	Question has been saved	Question has been saved	Question has been saved
+Urgent	عاجل	Urgent	Urgente	ارجنٹ
+newMsg	رسالة جديدة	New Message	New Message	نیا پیغام
+Prompt_MeetUp_Location_First	يرجى كتابة تفاصيل عن الاجتماع أولاً	Specify meetup description first.	Especifique primero la descripción del MeetUp.	سب سے پہلے اجلاس کی تفصیل واضح کریں
+Sent_to	إرسال إلى	Sent To	Sent To	وصول کنندہ
+Update_Event	تحديث الموضوع	Update Event	Update Event	تقریب کو اپ ڈیٹ کریں
+Add_Comment	إضافة تعليق	Add Comment	Add Comment	تبصرہکریں
+My_Meetups	اجتماعاتي	My Meetups	Mis MeetUps	میرے اجلاس
+Invitation_Sent_Success	تم إرسال الدعوة بنجاح	Invitation sent successfully.	Invitación enviada con éxito.	دعوت نامہ کامیابی سے بھیج دیا ھے
+Promote_To_Manager	تمت ترقيته إلى مدير	Promote To Manager	Ascender a administrador	مینیجر بنائیں
+Submitted_By	أرسل من خلال/عن طريق	Submitted By	Submitted By	مرسل
+language	لغة	Language	Idioma	زبان
+Config_Added_Success	تمت إضافة الإعدادات بنجاح	Configurations are successfully added.	Se añadieron con éxito las configuraciones.	تشکیلات کو کامیابی سے اضافہ کیا ہے
+Continue	تابع	Continue	Continuar	جاری رکھیں
+Member_Login	تسجيل دخول العضو	Member Login	Inicio de sesión para miembros	ممبر لاگ ان
+Nation_Contact	للتواصل دولياً	Nation Contact	Nation Contact	Nation Contact
+View	معاينة	View	Ver	دیکھیں
+All	جميع	All	All	تمام
+Visits	زيارات	Visits	Visitas	وزٹز
+adm_req_For_rejected	Your admission request has been rejected by the course leader for	Your admission request has been rejected by the course leader for	Your admission request has been rejected by the course leader for	Your admission request has been rejected by the course leader for
+Select_Collections_Merge	اختر المجموعات لدمج	Select Collections to Merge	Seleccionar colecciones para combinar	مجموعات ضم کرنے کے لیے منتخب کریں
+Member_Removed_From_Course	تم حذف العضو من الدورة التدريبية	Member is removed from course.	Se eliminó el miembro del curso.	رکن کو کورس سے خارج کر دیا ہے
+Community	مجموعة	Community	Comunidad	کمیونٹی
+Course_Failure_Msg	لم يتم نجاحك في تخطي هذا المستوى. اقرأ بعناية وحاول مرة أخرى	You are unable to pass this level. Read carefully and try again.	No aprobaste este nivel. Lea y vuelva a intentarlo.	آپ یہ لیول عبور کرنے میں ناکام رہے ہیں ۔ بغور پڑھ لیں اور پھر کوشش کریں ۔
+School_Year	السنة الدراسية	School Year	School Year	اسکول کا سال
+Select_Date	يجب عليك اختيار تاريخ للمضي قدما	You must choose a date to proceed.	Elija una fecha para continuar.	آپ کو آگے بڑھنے کے لیے تاریخ کا انتخاب کرنا ہوگا
+My_Library	مكتبتي	My Library	Mi biblioteca	میری لائبریری
+fill_all_fields	Please fill out all the fields first	Please fill out all the fields first	Please fill out all the fields first	Please fill out all the fields first
+Update_Available	التحديث متاح	Update Available	Actualización disponible	اپ ڈیٹ دستیاب
+Hide	إخفاء	Hide	Ocultar	چھپائیں
+Publication	نشرة	Publication	Publicación	اشاعت
+Selected	تم الاختيارر	Selected	Seleccionado	سیلیکٹد
+DownloadPaperForStep	Download Paper for step number	Download Paper for step number	Download Paper for step number	Download Paper for step number
+No_Resource_Pub	لا يوجد معلومات في هذه النشرة	 No Resource in this publication	 No Resource in this publication	 No Resource in this publication
+Finish	إنهاء	Finish	Terminar	ختم کریں
+Add_Collection	إضافة مجموعة	Add Collection	Añadir colección	 مجموعہ شامل کریں
+Schedule	الجدول الزمني	Schedule	Schedule	شیڈول
+Duplicate_In_Shelf	موجود سابقاً في الألبوم	Already in shelf.	Ya está en el estante.	پہلے ہی شیلف میں موجود ھے
+Resigned_Success_Msg	تم الخروج بنجاح من	Successfully resigned from	Abandono con éxito para	سے کامیابی سے استعفی دیا
+birthYear	سنة الولادة	Birth Year	Birth Year	Birth Year
+community_details	Community Details	Community Details	Community Details	Community Details
+Language_Of_Instruction	لغة التعليمات	Language Of Instruction	Idioma del curso	تعلیم کی زبان
+Received	Received	Received	Received	Received
+Sender	المرسل	Sender	Sender	مرسل
+Register	سجل	Register	Registrar	رجسٹر کریں
+Already_Joined_MeetUp	لقد قمت بالانضمام للمجموعة	You have already joined this meetup.	Ya se unió a este MeetUp.	آپ پہلے ہی اجلاس میں شامل ھو گۓ ھیں
+Steps	خطوات- مراحل	Steps	Pasos	مراحل
+Invalid_Credentials	كلمة المرور أو اسم المستخدم غير صحيح	Login or password incorrect.	Nombre de usuario o contraseña incorrecta.	لاگ ان یا پاس ورڈ غلط ہے
+nameOfCommunity	اسم المجموعة	Bell Name:	Bell Name:	Bell Name:
+Assignment_Submit_Success	تم تسجيل المهمة بنجاح	Assignment successfully submitted.	Tarea enviada con éxito.	تفویض کامیابی سے جمع ھو چکی ھے
+upload_Date	تحميل التاريخ	Upload Date	Upload Date	اپ لوڈ تاریخ
+Confirm_Community	هل أنت متأكد من أنك تريد حذف هذه المجموعة؟	Are you sure you want to delete this community?	¿Desea eliminar esta comunidad?	کیا آپ کو یقین ہے کہ آپ اس برادری کو حذف کرنا چاہتے ہیں؟
+Merge_Error	الرجاء تحديد 2 أو أكثر من البنود للدمج	Please select 2 or more items to merge.	Seleccione 2 o más de 2 artículos para combinar.	2 یا 2 سے زائد اشیاء کو ضم کرنے کے لیے منتخب کریں
+Course_Resignation	استقالة من الدورة التدريبية	Course Resignation	Abandonar curso	کورس سے استعفیٰ
+Resource_Subject_Missing	عنوان المجلد مفقود	Resource subject is missing.	Falta el tema del recurso.	ریسورس کا موضوع غائب ہے
+Add_to_my_library	إضافة إلى مكتبتي	Add To My Library	Añadir a mi biblioteca	میری لائبریری میں شامل کریں
+save_question	حفظ السؤال	Save Question	Save Question	سوال محفوظ کریں
+require_answer	وهذا يتطلب جوابا على السؤال	 Require Answer to Question.	 Require Answer to Question.	سوال کا جواب درکار ہے
+Not_Set	لم يتم تعيين	Not Set	No establecido	سیٹ نہیں ہے
+Select_a_Question	إختر سؤال	Select a question	Select a question	ایک سوال کو منتخب کریں
+save_and_add_feedback	حفظ وإضافة إلى مكتبتي	Save and Add to My Library	Guardar y añadir a mi biblioteca	محفوظ کریں اور میری لائبریری میں شامل کریں
+Weekly	أسبوعي	Weekly	Por semana	ھفتہ وار
+Add_New	إضافة جديدة	Add New	Agregar nuevo	 نیا شامل کریں
+UnAuthorized_Login	غير مسموح لك بتسجيل الدخول	You are not authorized to sign in.	No tienes autorización para iniciar sesión.	آپ سائن ان کرنے کے مجاز نہیں ہیں
+Course_Title	عنوان الدورة التدريبية	Course Title	Título del curso	کورس کا عنوان
+weight	الوزن/الأهمية	Weight	Weight	وزن
+Learner	متعلم	Learner	Estudiante	طالب علم
+All_Reports	جميع التقارير	All Reports	Todos los informes	تمام رپورٹیں
+Next	التالي	Next	Siguiente	اگلا
+Editor_Name	اسم المحرر/المؤلف	Editor Name	Editor Name	Editor Name
+Passed	مرت	Passed	Aprobado	آپ پاس ہو گئے ہیں
+year	سنة	Year	Año	سال
+Success_Msg	تم إتمام العمل بنجاح	Successfully done	Realizado con éxito.	کامیابی کے ساتھ کیا گیا ہے
+Save	حفظ	Save	Guardar	محفوظ کریں
+Type	النوع	Type	Type	قسم
+Add_Course	إضافة درس جديد	Add Course	Añadir curso	نیا کورس  شامل کریں
+Medium	متوسط	Medium	Medio	میڈیم
+Add_Issue	إضافة نشرة/نسخة	Add Issue	Add Issue	Add Issue
+Recipients	المستلمين	Recipients	Destinatarios	وصول کنندگان
+UnHide	ظهار	Unhide	Mostrar	چھپانا ختم کریں
+Welcome	أهلاً بك	Welcome	Bienvenido	 خوش آمدید
+Rearrange	إعادة ترتيب	Rearrange	Reorganizar	پھر ترتیب دیں
+Feedback_For	ملاحظات عن	Feedback For	Retroalimentación para	کے لئے رائے
+new_nation_report	تقرير دولي جديد	New Nation Report	New Nation Report	New Nation Report
+Invalid_AllowedErrors	خطأ غير مسموح به	Not a valid allowed errors.	Errores no válidos permitidos.	یہ غلطی جائز نقائص میں سے نہیں ہے ۔
+Thank_Member	شكرا لاشتراكك معنا كعضو	Thank you for becoming a member.	Gracias por ser miembro.	ممبر بننے کے لئے آپ کا شکریہ
+Courses	دروس	Courses	Cursos	کورسز
+My_Courses_Progress	دروسي التقدم	My Courses Progress	El progreso de mis cursos	میرےپیش رفت کورسز 
+resource_for	الموارد ل	Resource For	Recurso para	ريسورس کے لئے
+None	لا شيء	None	None	کوئی نہیں
+MemberDb_Replicated	تم نسخ قاعدة بيانات الأعضاء	Members database replicated.	Base de datos de miembros replicada.	ارکان ڈیٹا بیس کی نقل بن چکی ھے
+Event_Detail	تفاصيل الموضوع	Event Detail	Event Detail	تقریب کی تفصیل
+Go	بدء البحث	Go	Go	آگے بڑھیں
+Course_Information	معلومات الدورة التدريبية	Course Information	Información del curso	کورس کی معلومات
+active_members_this_month	الأعضاء الفعالين هذا الشهر	Active Members This Month	Miembros activos de este mes	فعال ارکان رواں ماہ
+Unselect_All	إلغاء تحديد الكل	Unselect All	Deseleccionar todos	تمام غیر منتخب کریں
+Male	ذكر	Male	Masculino	مرد
+Options	خيارات	Options	Opciones	اختیارات
+Empty_Collection_Name	لا يمكن أن يكون اسم المجموعة فارغا	Collection name can not be empty.	El nombre de la colección no puede estar vacío.	مجموعہ کا نام خالی نہیں ہو سکتا
+Not_Synced	لم تتم مزامنتها	Not Synced	Not Synced	ہم وقت سازی نہیں ہو سکی
+Select_Roles	Select Roles	Select Roles	Select Roles	Select Roles
+Request_Resource	طلب مادة	Request Resource	Solicitar recurso	درخواست براےء ريسورس
+Photo	صور	Photo	Foto	تصویر
+Sync	مزامنة	Sync	Sync	Sync
+Leader_Name	اسم المدير	Leader Name	Nombre del coordinador del curso	لیڈر کا نام
+nameInNativeLang	العربية	English	Español	اردو
+article_Date	تاريخ المقال	Article Date	Fecha del artículo	مضمون تاریخ
+empty_Survey	لا يوجد أسئلة في هذا البحث	No questions in this survey	No questions in this survey	No questions in this survey
+resource_views_this_month	مجموع المجلدات التي تم عرضها هذا الشهر	Total Resource Views This Month	Total de recursos vistos en el mes	کل وسیلہ کے دورے اس ماہ کے
+Request_Meetup_Title	أريد الانضمام إلى اجتماع عن الموضوع التالي	I would like to join a Meetup on the following topic,	Quiero unirme a MeetUp en el siguiente tema:	میں مندرجہ ذیل موضوع پر ایک اجلاس میں شامل ہونا چاہوں گا
+No_Attachment	لا توجد ملفات مرفقة	No Attachment	No adjuntar archivos	منسلکہ نہیں
+General_Manager	المدير العام	General Manager	General Manager	General Manager
+Survey_Download_Success_Msg	تم تحميل البحث بنجاح	Survey has been downloaded successfully	Survey has been downloaded successfully	سروے کامیابی سے ڈاؤن لوڈ کیا گیا ہے
+DuplicateSteps	العملية موجودة سابقاً	Step already exists.	Este paso ya existe.	یہ مرحلہ پہلے ہی موجود ہے
+Reports_Replicated_Success	تم نسخ التقارير بنجاح	Successfully replicated reports.	Se reprodujeron con éxito los informes.	کامیابی کے ساتھ رپورٹیں نقل ھو چکی ھیں
+RequestForCourse	تم إرسال طلب الموافقة لمدير الدورة التدريبية بنجاح	Admission request successfully sent to this course leader.	Solicitud de admisión enviada con éxito al coordinador del curso.	داخلہ کی درخواست اس کورس کے رہنما کو کامیابی سے بھیجی ہے ۔
+Total_Member	مجموع الأعضاء	Total Member	Total Member	Total Member
+Collection	مجموعة	Collection	Colección	مجموعہ
+Fetch_Collections_Error	غير قادر على اختيار مجموعات	Unable to get collections.	No se pueden obtener colecciones.	مجموعے کو حاصل کرنے سے قاصر ہیں.
+members_visits_this_month	مجموع زيارات الأعضاء لهذا الشهر	Total Member Visits This Month	Total de visitas de miembros durante este mes	کل رکن دورے اس ماہ کے
+Prompt_CollectionName	أدخل اسم مجموعة	Enter collection name.	¡Ingrese  el nombre de la colección!	مجموعہ کا نام لکھیں
+Required_Text	النص المطلوب	Required	Requerido	مطلوبہکلمات
+FeedbackDb_Replicated_Success	تم نسخ تقرير سجل النشاطات بنجاح	Successfully replicated application feedback database.	Se reprodujo con éxito la base de datos para retroalimentación.	کامیابی کے ساتھ رائے کی ڈیٹا بیس میں نقل بن چکی ھے
+Course_Manage	إدارة الدورة التدريبية	Course Manage	Administrador del curso	کورس کی تصیح کریں
+Birthday_Range	يجب أن يكون عمرك خمسة سنوات فما فوق للانضمام	Valid Age Range: 5 to 100	Rango de edad válido es de 5 a 100.	صحیح عمر کی حد 5 سے 100 کے درمیان ہے
+Error_Welcome_Resource	حصل خطأ عند الدخول	Error fetching welcome resources.	Error al obtener recursos de bienvenida.	خوش آمدید ریسورسیز لانے میں نقص ہے
+Invite_Member	دعوة عضو	Invite Member	Invitar a miembros	اراکین کو مدعو کریں
+Missing_Resource_Author	الرجاء تحديد مصدر الأخبار	Please specify author for this new resource.	Especifique el autor de este recurso de noticias.	اس ریسورس کے مصنف کا نام لکھیں
+Sync_Publication	مزامنة النشرة	Sync publication	Sync publication	اشاعت کے ساتھ مطابقت پذیری کریں
+Date	تاريخ	Date	Fecha	تاریخ
+Configurations	الضبط	Configurations	Configurations	تشکیلات
+Response	Response	Response	Response	Response
+link_to_license	موقع للحصول على ترخيص	Link to License	Enlace a la licencia	لائسنس کے لئے لنک
+Model_fetch_Pubs_Success	تم قبول نموذج النشرات	Model of publications is accessed.	Se accedió al modelo de publicaciones.	مطبوعات کا ماڈل حاصل کیا ہے
+Search	بحث	Search	Búsqueda	تلاش کریں
+Add_your_feedback	إضافة ملاحظاتك	Add Your Feedback	Agregue su retroalimentación	اپنی رائے کا ا ضافہ کریں
+Publication_Issue	إصدار النشرة	Publication Issue	Publication Issue	Publication Issue
+Dashboard	بيتي	My Home	Página principal	ڈیش بورڈ
+Code	الرمز	Code	Code	کوڈ
+Communities_request	Communities Requests	Communities Requests	Communities Requests	Communities Requests
+End_date	تاريخ النهاية	End Date	Fecha de finalización	تاریخ اختتام
+Successfully_Deleted	تم الحذف بنجاح	Successfully deleted.	Eliminado con éxito.	کامیابی کے ساتھ خارج
+Frequency	التكرار	Frequency	Frecuencia	فریکوئنسی
+Description_Error	Description is required	Description is required	Description is required	Description is required
+Cancel	إلغاء	Cancel	Cancelar	 منسوخ
+Courses_Synced_Error	تعذر مزامنة الدورة التدريبية	Failed to sync courses.	Error al sincronizar los cursos.	کورس ہم وقت ساز کرنے میں ناکامی ہے
+Removed_From_Collection	تم الحذف من المجموعة بنجاح	Removed successfully from collection.	Quitó con éxito de la colección.	کامیابی سے مجموعہ میں سے ہٹا دیا ہے
+Collection_Saved_success	تم حفظ المجموعة بنجاح	Collection saved successfully.	Colección guardada con éxito.	مجموعہ کامیابی سے محفوظ کرلیا ھے
+Super_Manager	مدير ممتاز- المدير الأول	Super Manager	Administrador principal	سپر مینیجر
+Editor_Phone	رقم هاتف المحرر/المؤلف	Editor Phone	Editor Phone	Editor Phone
+Submit	قدم	Submit	Enviar	جمع کرائیں
+For_Course	للدورة التدريبية 	for course	para el curso	کورس کے لئے
+Pending_Resources	Pending Resources	Pending Resources	Pending Resources	Pending Resources
+InValid_CommunityName	اسم المجموعة الذي قمت بإدخاله مكرر. الرجاء المحاولة مرة أخرى باستخدام اسم مختلف	Community 'name' entered is a duplicate. Please try again with a different name.	El nombre de comunidad especificado es un duplicado. Inténtelo de nuevo con un nombre diferente.	برادری میں داخل کردہ نام نقل ہے ۔ براہ مہربانی ایک مختلف نام کے ساتھ کوشش کریں ۔
+unCheckAll	إلغاء تحديد الكل	Uncheck All	Desmarcar todas	 تمام کو غیر منتخب کریں
+Resource_Added_Success	تمت إضافة المعلومات بنجاح	Resource successfully added.	Recurso agregado con éxito.	ریسورس کا کامیابی سے اضافہ ھو چکا ھے
+Nation_Name	الاسم الدولي	Nation Name	Nation Name	قوم کا نام
+bells_selection_msg	Please select bells first	Please select bells first	Please select bells first	Please select bells first
+directionOfLang	Right	Left	left	Right
+Extra_Docs_Deleted	تم حذف المستندات الموزعة للنشرات الإضافية	Extra publication distribution documents have been deleted.	Se eliminaron los documentos de distribución para publicaciones adicionales.	اضافی اشاعتی ڈسٹریبیوشن دستاویزات کو حذف کر دیا گیا ہے
+ActivityReports_Replicated_Success	تم نسخ تقرير سجل النشاطات بنجاح	Successfully replicated log activity reports.	Se reprodujeron con éxito los informes de actividad de registro.	کامیابی کے ساتھ لاگ ان سرگرمیوں کی رپورٹیں نقل ہو چکی ہیں
+Instructions	تعليمات	Instructions	Instrucciones	ہدایات
+Subject_Level	مستوى تخضع	Subject Level	Nivel de tema	موضوع کا لیول
+Resources_Synced_Success	تمت مزامنة المجلدات بنجاح	Resources successfully synced.	Recursos sincronizados con éxito.	ریسورسز کامیابی سے مطابقت پذیر ہو گۓ ہیں
+Name	اسم	Name	Nombre	نام
+Reports	تقارير	Reports	Informes	رپورٹیں
+Year_format	YYYY	YYYY	YYYY	سال
+Authorized_By	تأليف	Authorized By	Authorized By	Authorized By
+Last_App	التطبيق الأخير	Last App	Last App	Last App
+Empty_Shelf	لا يوجد ما تبحث عنه في الألبوم	No item in the shelf.	No hay elementos en el estante.	شیلف میں کوئی شے نہیں ہے
+Databases	قاعدة البيانات	Databases	Databases	ڈیٹا بیسز
+Confirm_Decline	Are you sure you declined this resource?	Are you sure you declined this resource?	Are you sure you declined this resource?	Are you sure you declined this resource?
+Missing_Author	اسم المؤلف مفقود	Missing author name.	Falta el nombre del autor.	مصنف کا نام غائب ہے
+Login	دخول	Login	Iniciar sesión	لاگ ان
+Subject_single	الموضوع	Subject	Asunto	موضوع
+Missing_Report_Title	عنوان التقرير مفقود	Report title is missing.	Falta el título del informe.	رپورٹ کا عنوان غائب ہے
+member_Delete_success	تم حذف العضو بنجاح	Member deleted successfully.	Miembro eliminado con éxito.	رکن کو کامیابی سے حذف کر دیا ہے
+UpdateProfile	الرجاء تحديث الملف الشخصي الخاص بك	Please update your profile.	Actualice su perfil.	براہ مہربانی اپنی پروفائل کو اپ ڈیٹ کریں
+Update_Profile_Reminder	الرجاء تصحيح المعلومات التي تم تمييزها في هذا النموذج	Please correct the highlighted information on this form.	Hay información incorrecta en su cuenta. Actualícela.	نمایاں کردہ معلومات فارم پر درست کریں
+Actions	إجراءاتت	Actions	Actions	افعال
+Add_new_Resource	إضافة مورد جديد	Add New Resource	Agregar recurso nuevo	نئے ریسورس  شامل کریے
+End_Time	وقت النهاية	End Time	Hora de finalización	وقت اختتام
+Add_Resource	إضافة مادة	Add Resource	Añadir recurso	ریسورس کا ا ضافہ کریں
+Role_Selection_Error	Please select roles first	Please select roles first	Please select roles first	Please select roles first
+Survey_Note	This is how the survey will appear to users.*	This is how the survey will appear to users.*	This is how the survey will appear to users.*	This is how the survey will appear to users.*
+Course_Desc_Missing	وصف الدورة التدريبية مفقود	Course description is missing.	Falta la descripción del curso.	کورس کی تفصیل غائب ہے
+Sponsoring_Organization	المنظمة الممولة/الراعية	Sponsoring Organization	Sponsoring Organization	Sponsoring Organization
+Become_an_administrator	Become an Administrator	Become an Administrator	Become an Administrator	Become an Administrator
+Get_Members_List	Get Members List	Get Members List	Get Members List	Get Members List
+Pubs_Replicated_Success	تم نسخ النشرات بنجاح	Successfully replicated publications.	Se reprodujeron con éxito las publicaciones.	کامیابی سے مطبوعات کی نقل ہو چکی ہے
+Survey_Download_Error_Msg	غير قادر على تحميل البحث	Unable to download survey	Unable to download survey	سروے ڈاؤن لوڈ نہیں کر سکے
+Resources	مصادر - مواد	Resources	Recursos	ريسورسز
+Members_Database	قاعدة بيانات الأعضاء	Members Database	Members Database	ارکان کی ڈیٹا بیس
+Address	العنوان	Address	Address	Address
+Enter_Message	اكتب رسالة من فضلك	Please enter message.	Ingrese el mensaje.	پیغام لکھیں
+Update	تحديث	Update	Actualizar	اپ ڈیٹ
+Sync_With_Nation	مزامنة مع العنوان/الرابط	Sync With Nation	Sync With Nation	قوم کے ساتھ مطابقت پذیر ہوں
+Prompt_Community_First	الرجاء اختيار المجموعة أولاً	Please select community first.	Seleccione primero comunidad.	براہ کرم برادری کو پہلے منتخب کریں
+request_rejected	Registration request has been rejected.	Registration request has been rejected.	Registration request has been rejected.	Registration request has been rejected.
+Adm_req_rejected	Admission Request Rejected	Admission Request Rejected	Admission Request Rejected	Admission Request Rejected
+New_Quiz	اختبار قصير جديد	New Quiz	Prueba nueva	نیاٹیسٹ
+Updated_Successfully	تم التحديث بنجاح	Updated successfully.	Actualizado con éxito.	کامیابی سے اپ ڈیٹ ھو گیا ھے
+Members	أعضاء	Members	Miembros	اراکین
+Notes	ملاحظات	Notes	Notes	نوٹس
+member_selection_msg	Please select members first	Please select members first	Please select members first	Please select members first
+Create_Apps_Error	فشل في إنشاء التطبيقات	Failed to create apps.	Error al crear aplicaciones.	 ایپس بنانے میں ناکامی
+Survey_Download_Error_Ques	غير قادر على تحميل أسئلة البحث	Unable to download survey questions	Unable to download survey questions	سروے سوالات ڈاؤن لوڈ نہیں کر سکے
+Remaining	المتبقية	Remaining	Restantes	باقی
+Enter_Recipient	الرجاء إدخال المستلم	Please enter recipient.	Ingrese el destinatario.	وصول کنندہ درج کریں
+Rating	تصنيف	Rating	Calificación	درجہ بندی
+Survey_Number	رقم البحث	Survey No	Survey No	سروے نمبر
+Lowest_Rated	أدنى تصنيفها	Lowest Rated	La nota más baja	سب سے کم درجہ بندی
+Select_All	اختر الكل	Select All	Seleccionar todos	تمام منتخب کریں
+Collection_Name	اسم المجموعة	Collection Name	Nombre de la colección	مجموعہ کا نام
+Pubs_Issue_Missing	حقوق النشر مفقودة	Publication issue is missing.	Falta la publicación.	اشاعت کا ایشو غائب ہے
+Application_Feedbacks	تعليقاتك على التطبيق	Application Feedbacks	Application Feedbacks	ایپلی کیشن کے بارے میں رائے
+Female	أنثى	Female	Femenino	خاتون
+Birth_Date	تاريخ الميلاد	Birth Date	Fecha de nacimiento	تاریخِ پیدائش
+Survey_No	رقم البحث	Survey No.	Survey No.	سروے نمبر
+title_msg_required	Required field and don't contain numbers	Required field and don't contain numbers	Required field and don't contain numbers	Required field and don't contain numbers
+resource_replication_success	Successfully replicated resource	Successfully replicated resource	Successfully replicated resource	Successfully replicated resource
+Select_Comm	اختيار مجموعة	Select Community	Select Community	Select Community
+Send_Survey	إرسال البحث	Send Survey	Send Survey	سروے بھیجیں
+Start_Time	وقت البداية	Start Time	Hora de inicio	وقت آغاز
+Question	سؤال	Question	Pregunta	سوال
+Invalid_Inputs	إدخال غير صالح	Invalid inputs.	Entradas no válidas.	غلط اِن پٹ
+Send	إرسال	Send	Enviar	ارسال کریں
+accepted_email_text	Admission request has been accepted from member	Admission request has been accepted from member	Admission request has been accepted from member	Admission request has been accepted from member
+Duplicate_Course_In_Pub	الدورة التدريبية موجودة سابقاً في هذه النشرة	This course already exists in this publication.	Este curso ya existe en esta publicación.	یہ کورس اشاعت میں پہلے ہی موجود ہے
+Location	موقع	Location	Ubicación	مقام
+Reply	الرد	Reply	Reply	جواب دیں
+Sent	Sent	Sent	Sent	Sent
+subject	مستوى (مستويات)	Subject(s)	Asignatura(s)	مضمون
+No_Changes	لم تقم بإجراء أية تغييرات	You have not made any changes.	No ha cambiado nada.	آپ نے کسی چیز کو تبدیل نہیں کیا
+Prompt_ReleaseNotes	الرجاء كتابة الملاحظات	Please enter release notes.	Ingrese las notas de la versión.	اجراء کے نوٹس لکھیں
+Join_meetUp	الإنضمام إلى الاجتماع	Join Meetup	Únete a MeetUp	اجلاس میں شامل ہوں
+Foreground_Color	لون الواجهة	Foreground Color	Color principal	پیش منظر رنگ
+column_choices	اختيارات العمود	Column Choices	Column Choices	کالم کے آپشنز
+Facts_and_Figures	حقائق وأرقام	Facts and Figures	Datos y cifras	اعداد و شمار
+Meetups	اجتماعات	Meetups	MeetUps	اجلاس
+Title_Error	Title is required	Title is required	Title is required	Title is required
+No_File_Selected	لم يتم تحديد أي مجلد.	No File Selected	No hay ningún archivo seleccionado	کوئی فائل منسلک نہیں ہے
+Back_To_Course	العودة إلى الدورة التدريبية	Back to Courses	Regresar al curso	کورسز پر جایئے
+offline_Status_warning	Your status is offline, so we are unable to fetch list of nations for you	Your status is offline, so we are unable to fetch list of nations for you	Your status is offline, so we are unable to fetch list of nations for you	Your status is offline, so we are unable to fetch list of nations for you
+Invalid_Range	المساحة المحددة لا تكفي	Invalid range specified.	Rango especificado no válido.	رینج درست نہیں ہے
+UnAuthorized_Community	غير مسموح تحديث هذا القسم بدون موافقة أعضاء المجموعة	The community is not authorized to update until it is properly configured with a nation.	La comunidad no puede actualizar hasta que se configuré con éxito la nación.	برادری کو اپ ڈیٹ کرنے کی اجازت نہیں ہے جب تک اس کو قوم کے ساتھ صحیح طرح ترتیب نہیں دی جاتی
+Upload	تحميل	Upload	Subir	اپ لوڈ
+Add_new_Question	إضافة سؤال جديد	Add a New Question	Add a New Question	ایک نئے سوال کا ا ضافہ کریں
+Total_Resource	مجموع المجلدات	Total Resource	Total Resource	Total Resource
+Start_date	تبدأ بتاريخ	Start Date	Fecha de inicio	تاریخ آغاز
+Duplicate_CommunityName_Error	إن هذه المجموعة مكررة في قاعدة البيانات. الرجاء حذف النسخ الأخرى و المحاولة مجدداً	Community has duplicates in the database. Please delete other copies and retry.	La comunidad tiene duplicados en la base de datos. Elimine otras copias y vuelva a intentarlo.	برادری کی نقول ڈیٹا بیس میں موجود ہیں ۔ براہ مہربانی دیگر نقول حذف کریں اور پھر کوشش کریں ۔
+Question_Text	نص السؤال	 Question Text	 Question Text	سوال کا متن
+survey_success_msg	Survey has been sent successfully	Survey has been sent successfully	Survey has been sent successfully	Survey has been sent successfully
+No_data_found	لا يوجد أي سجل	No such record exists	No such record exists	اس کا ریکارڈ موجود نہیں ہے
+Resource	مورد	????	Resource	ریسورس
+Nation_InVisible	Nation is not visible	Nation is not visible	Nation is not visible	Nation is not visible
+Month	الشهر	Month	Month	ماہ
+select_nation	Select Nation	Select Nation	Select Nation	Select Nation
+request_Rejected_already	you have rejected this invitation	you have rejected this invitation	you have rejected this invitation	you have rejected this invitation
+Prompt_Reource_first	الرجاء اختيار مجلد أولاً	Please select resources first.	Seleccione primero los recursos.	پہلےریسورس منتخب کریں
+Fetch_Resources_Error	تعذر الحصول على المجلدات - المعلومات	Unable to get resources.	No se pueden obtener los recursos.	ریسورسیز حاصل کرنے میں ناکام ہیں
+No_Activity_Logged	لن يتم أي تحديث في هذه الفترة	No activity logged for this period.	No registra actividades en este período.	اس مدت کے لئے کوئی سرگرمی لاگ نہیں ہے
+Add_Event	إضافة موضوع	Add Event	Add Event	تقریب شامل کریں
+Request_Course_Title	:أود الالتحاق بدوره دراسية عن الموضوع التالي	I would like to enroll in a course on the following subject.	Quiero matricularme en un curso con el siguiente tema:	میں مندرجہ ذیل موضوع پر ایک کورس میں اندراج کرنے کے لئے چاہوں گا
+invite_rejected	لقد قمت برفض هذه الدعوة	You have rejected this invitation.	You have rejected this invitation.	آپ نے اس دعوت کو مسترد کردیا ہے ۔
+Resources_Synced_Error	تعذرت مزامنة المجلدات	Failed to sync resources.	Error al sincronizar los recursos.	ریسورسز ہم وقت ساز کرنے میں ناکامی ہے
+Last_Name	اسم العائلة	Last Name	Apellido	آخری نام
+Missing_Resource_Title	عنوان المصدر غير موجود	Resource title is missing	No está el título del recurso.	ریسورس کا عنوان خالی ہے ۔
+Date_format	DD	DD	DD	دن
+Prompt_Version_Number	الرجاء إدخال رقم الإصدار	Please enter version no.	Ingrese el número de la versión.	ورژن نمبر لکھیں
+Edit_Question	تعديل السؤال	Edit Question	Edit Question	Edit Question
+Member_Resources_Count	مجموع زيارات الأعضاء و مجموع المجلدات التي تم عرضها تحتوي على معلومات عن الشهر الحالي فقط	*The Total Member Visits and Total Resource Views columns contain data of the current month only	*The Total Member Visits and Total Resource Views columns contain data of the current month only	*The Total Member Visits and Total Resource Views columns contain data of the current month only
+Attachment	الملفات المرافقة	Attachment	Archivo adjunto	منسلکہ
+Reject	رفض	Reject	Rechazar	رد کریں
+Recurring	المتكررة	Recurring	Recurrente	مکرر
+Leader	زعيم	Leader	Coordinador	لیڈر
+leader_must_resign	Leader cannot directly remove himself, he must resign.	Leader cannot directly remove himself, he must resign.	Leader cannot directly remove himself, he must resign.	Leader cannot directly remove himself, he must resign.
+Duplicate_CollectionName	اسم المجموعة موجود سابقاً	Collection name already exists.	Ya existe el nombre de la colección.	مجموعہ کا نام پہلے ہی موجود ھے
+Allowed_Errors	الأخطاء المسموح بها	Allowed Errors	Errores permitidos	جائز نقائص
+Collection_s	مجموعات	Collections	Colecciones	مجموعے
+Prompt_Course_Desc	الرجاء تحديد وصف عن الدورة التدريبية أولاً	Specify course description first.	Especifique primero la descripción del curso.	سب سے پہلے کورس تفصیل کو واضح کریں
+Add_To_Level	إضافة إلى مستوى	Add to Level	Añadir al nivel	لیول کا ا ضافہ کریں
+Phone	رقم الهاتف	Phone	Teléfono	فون
+Logout	تسجيل خروج	Logout	Desconectarse	لاگ آؤٹ
+Communities	المجتمعات	Communities	Communities	برادریاں
+Bug	خلَل	Bug	Error	قص
+Phone_M	رقم الهاتف	Phone M	Phone M	Phone M
+No_Data_Error	لم يتم العثور على بيانات في الخادم	No data found on server.	No se encontraron datos en el servidor.	سرور پر اعداد و شمار نہیں ہیں
+survey_sent_Success	تم إرسال المجلد/البحث	Survey has been sent	Survey has been sent	Survey has been sent
+No_Result	لا توجد نتائج	No result found.	No se encontraron resultados.	کوئی نتیجہ نہیں ملا
+Identify_Correct	تحديد الإجابة الصحيحة	Identify the right response.	Identificar la respuesta correcta.	صحیح جواب کی شناخت
+Step_Method	أسلوب المرحلة	Step Method	Método del paso	مرحلے کا طریقہ
+question_Edit	تم تعديل السؤال بنجاح	Question has been edited successfully	Question has been edited successfully	Question has been edited successfully
+Duplicate_Save	تم حفظه سابقاً	Already saved.	Ya se guardó.	پہلے ہی محفوظ ھو چکا ھے
+Add_Question	إضافة سؤال	Add Question	Añadir pregunta	سوال شامل کریں
+Detailed_View	عرض مفصل	Detailed View	Vista detallada	تفصیلی جائزہ
+fill_config_first	Please fill the Configurations form first	Please fill the Configurations form first	Please fill the Configurations form first	Please fill the Configurations form first
+Select_Bells	Select Bells	Select Bells	Select Bells	Select Bells
+AddToNation	Add to Nation	Add to Nation	Add to Nation	Add to Nation
+First_Name	الإسم الأول	First Name	Nombre	نام
+Not_Applicable	لا ينطبق	Not Applicable	No es aplicable	ناقابل اطلاق
+invite_Accepted	لقد قمت بقبول هذه الدعوة	You have accepted this invitation.	You have accepted this invitation.	آپ نے یہ دعوت قبول کر لی ہے ۔
+Trend	اتجاه	Trend	Tendencia	رجحان
+Manage	أدار	Manage	Administrar	تصیح
+Tech_Support	دعم فني	Tech Support	Tech Support	Tech Support
+Outcomes	النتائج	Outcomes	Resultados	نتائج
+Middle_Names	اسم الاب	Middle Names	Middle Names	درمیانہ نام
+Done	تم	Done	Done	Done
+Has_Resign_From	قد استقال من	has resigned from	Has abandonado	سے استعفی دے دیا ہے
+old_communities	Old Communities	Old Communities	Old Communities	Old Communities
+Open	فتح	Open	Abrir	کھولیں
+Set_Configurations	ضبط الإعدادات	Set Configurations	Set Configurations	تشکیلات کو سیٹ کریں
+Confirm_Publication	هل أنت متأكد من أنك تريد حذف هذه النشرة؟	Are you sure you want to delete this publication?	¿Desea eliminar esta publicación?	کیا آپ کو یقین ہے کہ آپ اس اشاعت کو حذف کرنا چاہتے ہیں؟
+New_Message	رسالة جديدة	New Message	Mensaje nuevo	نیا پیغام
+InvalidStepNumber	رقم العملية خطأ	Not a valid step number.	Número de pasos no válidos.	یہ مرحلہ نمبر ٹھیک نہیں ہے ۔
+Invalid_Image_File	خطأ. صورة الملف غير صالحة	Error. Not a valid image file. File must be in .jpeg format.	Error: extensión no válida de la imagen. Extensiones válidas son .jpg, .jpeg.	نقص: تصویرکی ایکسٹنشن صحیح نہیں ہے صحیح jpg۔ اورjpeg۔ ہیں
+Less_than_15	Less than 15	Less than 15	Less than 15	15 سے کم 
+Send_Email	إرسال بريد إلكتروني	Send Email	Enviar correo	ای میل بھیجیں
+Event_Deleted_Success	تم حذف الموضوع بنجاح	Event successfully deleted.	¡Evento borrado con éxito!	تقریب کو کامیابی کے ساتھ حذف کر دیا ھے
+Method	الأسلوب	Method	Método	طریقہ
+Take_Quiz	قم بإجراء الاختبار	Take Quiz	Rendir prueba	ٹیسٹ دیں
+uploaded_file	Uploaded File :	Uploaded File :	Uploaded File :	Uploaded File :
+UnableToReplicate	غير قادر على نسخ التطبيقات	Unable to replicate apps.	No se pueden reproducir las aplicaciones.	ایپس کی نقل تیار کرنے میں نااہل
+Poor_Internet_Error	غير قادر على تحديث تطبيقات بيل. الرجاء التأكد من الإتصال بالإنترنت أو المحاولة لاحقاً	Unable to update Bell-Apps. Please check your internet connection or try again later.	No se pueden actualizar las BeLL-Apps. Revise su conexión a internet o inténtelo más tarde.	بیل ایپس کی اپ ڈیٹ نہیں یو سکی، آپ اپنے انٹرنیٹ کنکشن کی پڑتال کریں یا بعد ازاں دوبارہ کوشش کریں
+Request_Sent_Success	تم إرسال الطلب بنجاح	Request successfully sent.	Petición enviada con éxito.	کامیابی سے درخواست بھیج دی ہے
+author	كاتب	Author	Autor	مصنف
+media	وسائل الإعلام	Media	Medio	میڈیا
+registered_past_twelve_months	مجموع الأعضاء المسجلين في الإثني عشر شهر الماضي	Total Registered Members Past 12 Months	Total de miembros registrados en los últimos 12 meses	گذشتہ 12 ماہ کے کل رجسٹرڈ ارکان
+Nation	دولة/ دولي	Nation	País	قوم
+New_Survey	بحث جديد	New Survey	New Survey	نیا سروے
+MeetUp_Title_Missing	عنوان الاجتماع مفقود	Meetup title is missing.	Falta el título del MeetUp.	اجلاس کا عنوان غائب ہے
+answer_Choices_Stat	ااختر الإجابة - كل اختيار على سطر منفصل	Answer Choices (each choice on a separate line)	Answer Choices (each choice on a separate line)	جواب کی آپشنز (علیحدہ لائن پر ہر آپشن دیں)
+You_Scored	سجل لك	You scored	Calificación	آپ نے سکوربنائے
+Resource_Updated	تم تحديث المعلومات بنجاح	Resource updated successfully.	Recurso actualizado con éxito.	ریسورس کامیابی سے اپ ڈیٹ ہو گیا ہے
+Resources_Feedbacks	ملاحظاتك عن المجلدات	Resources Feedbacks	Resources Feedbacks	ریسورسز کے بارے میں رائے
+Add_Member	إضافة عضو	Add Member	Añadir miembro	رکن کا ا ضافہ کریں
+Response_Options	خيارات الاجابة	Response Options	Opciones de respuesta	جواب کی اپشنز
+Download	تحميل	Download	Download	ڈاؤن لوڈ
+Publications	المنشورات	Publications	Publicaciones	مطبوعات
+less_options	الرجاء تزويدنا بإجابة/خيار واحد على الأقل	Please provide atleast one options	Please provide atleast one options	Please provide atleast one options
+meetUp_delete_confirm	هل أنت متأكد من أنك تريد حذف هذا الاجتماع؟	Are you sure that you want to delete this meetup?	¿Desea eliminar este encuentro de MeetUp?	کیا آپ کو یقین ہے کہ آپ اس اجلاس کو حذف کرنا چاہتے ہیں؟
+Unread	غير مقروء	Unread	Unread	بغیر پڑھے
+Reques_t	طلب	Request	Solicitar	درخواست
+ID	هوية	ID	ID	ID
+View_s	عدد المشاهدات	Views	Vistas	ویوژ
+Missing_MeetUp_Location	موقع الاجتماع مفقود	Meetup location is missing.	Falta la ubicación del MeetUp.	اجلاس کا مقام غائب ہے
+Rate_Resource_First	الرجاء تقييم المعلومات أولاً	Please rate the resource first.	Califique primero el recurso.	برائے مہربانی پہلے ریسوس کو شرح دیں
+Manager	مدير	Manager	Administrador	مینیجر
+Back_to_Resources	العودة إلى الموارد- المجلدات	Back to Resources	Regresar a recursos	ریسورسیز پر جایئے
+Total	المجموع	Total	Total	کل تعداد
+Successfully_Registered	تم التسجيل بنجاح	Successfully registered.	¡Registrado con éxito!	کامیابی کے ساتھ رجسٹرڈ ھو چکا ہے
+Surveys	الدراسات الاستقصائية - بحوث	Surveys	Encuestas	سروے
+Manifest_Error	تم خلق الملف في تطبيقات بيل	Manifest file is created in BeLL-Apps	Se creó el archivo de manifiesto en BeLL-Apps.	مینیفیسٹ فائل بیل ایپس میں بنائی جا چکی ہے
+Decline	Decline	Decline	Decline	Decline
+No_Steps	لا يوجد أية خطوات	No Steps	Sin pasos	اس کورس میں مراحل نہیں ہیں
+KeyWord_s	الكلمة	Keyword	Palabra clave	مطلوبہ الفاظ
+Select_Age_Group	Select Age Group	Select Age Group	Select Age Group	Select Age Group
+Compose	إنشاء	Compose	Compose	تحریر کریں
+Collections	مجموعات	Collections	Collections	مجموعے
+less_labels	العناوين أقل من قيمتها التقديرية	Labels are less than the rating value	Labels are less than the rating value	Labels are less than the rating value
+Course_Steps	مراحل الدورة التدريبية	Course Steps	Pasos del curso	کورس کے مرحلے
+Course_Full	لقد اكتمل عدد طلاب هذه الدورة التدريبية	This course is full.	Este curso está lleno.	یہ کورس بھر چکا ہے
+Bell_Name	Bell Name	Bell Name	Bell Name	Bell Name
+Males	الذكور	Males	Hombres	مرد
+pls_select_nation	Please select nation	Please select nation	Please select nation	Please select nation
+DateFormat_Reports	(YYYY:MM:DD)	(YYYY:MM:DD)	(YYYY:MM:DD)	(دن:ماہ:سال)
+MyMeetUps_Removed_Success	تم الحذف من الاجتماعات بنجاح	Successfully removed from My Meetups.	Quitó con éxito de mis encuentros.	میرے اجلاس میں سے حزف کر دیا گیا ھے
+CourseTitle_Missing	عنوان الدورة التدريبية مفقود	Course title is missing.	Falta el título del curso.	کورس کاعنوان غائب ہے
+Request_Course	طلب درس جديد	Request Course	Solicitar curso	درخواست براےء کورس
+Times_Rated	عدد مرات التقييم	Times Rated	Veces de la nota	استعمال کے لحاظ سے درجہ بندی
+Success_Saved_Msg	تم الحفظ بنجاح	Successfully saved.	¡Se guardó con éxito!	کامیاب سے محفوظ ہوا ھے!
+TryLater_Error	خطأ. الرجاء المحاولة لاحقاً	Error. Try again later.	Error. Intente más adelante.	نقص ( بعد میں کوشش کریں)
+Resource_Detail	تفاصيل المورد	Resource Detail	Detalle de recursos	ریسورس کی تفصیل
+Reports_Deleted_Success	تم حذف التقرير بنجاح	Successfully deleted report.	Informe eliminado con éxito.	کامیابی سے رپورٹ کو حذف کردیا ہے
+Requests	الطلبات	Requests	Requests	درخواستیں
+meetUp_Added	تمت الإضافة إلى اجتماعاتك بنجاح	Successfully added to My Meetups.	Añadió con éxito a mis encuentros.	کامیابی سے آپ کے اجلاس میں شامل ھو گیا ہے
+question_stat_missing	بيان السؤال مفقود	Question statement is missing	Question statement is missing	Question statement is missing
+View_All	مشاهدة الكل	View All	Ver todos	سب دیکھیں
+Admission_Req_Received	تم استلام طلب القبول من المستخدم	Admission request received from user	Solicitud de admisión del usuario recibida	صارف کی طرف سے داخلے کی درخواست موصول ہوئی ہے
+Topic	الموضوع	Topic	Tema	موضوع
+Create_Quiz	خلق اختبار قصير	Create Quiz	Crear prueba	ٹیسٹ بنائیں
+Config_Changed_For_Branch	تمت تعديل الإعدادات الخاصة بقسم المكتبة بنجاح	Configurations are successfully changed for branch library.	Se cambió con éxito la configuración para la sucursal de la biblioteca.	تشکیلات کو برانچ لائبریری کے لیے کامیابی سے تبدیل کر دیا ھے
+Config_Sync_With_Nation_Head	قم بتحديد العنصر - العناصر - للمزامنة	Select Item('s) To Sync	Select Item('s) To Sync	ہم وقت سازی کے لیے شے/اشیاء منتخب کریں
+Badges	شارات	Badges	Distinción de logro	جز
+Last_Activities	الأنشطة الأخيرة	Last Activities	Last Activities	Last Activities
+Account_DeActivated	تم إلغاء تفعيل الحساب الخاص بك	Your account is deactivated.	Se desactivó tu cuenta.	آپ کا اکاؤنٹ غیر فعال ہے
+manager_removes_leader	Only Manager can remove a Leader	Only Manager can remove a Leader	Only Manager can remove a Leader	Only Manager can remove a Leader
+Search_Result	نتائج البحث	Search Results	Resultado de búsqueda	 تلاش کے نتائج
+publisher_attribution	الناشر/الإسناد	Publisher/Attribution	Editor/Fuente	پبلیشر /  نسبت
+Empty_Courses	لم يتم قبول أي دورات تدريبية	No courses accepted.	No tienes cursos aceptados.	کوئی کورس نہیں ہے
+Quiz	اختبار قصير	Quiz	Prueba	ٹیسٹ
+Max_open_Frequency	مفتوح معظم الأحيان	Most Frequently Opened	Abiertos con más frecuencia	سب سے زیادہپڑھاگیا
+Nested_Under	نظمت تحت	Nested Under	Incorporado en	ذیلی حصے
+Choose	أختر	choose	Elegir	انتخاب کریں
+New	جديد	New	Nuevo	نیا
+Pubs_Synced_Error	خطأ في المزامنة أو تكرار النشرة	Error syncing/replicating publication.	No se sincronizaron las publicaciones.	اشاعت کی مطابقت پذیری یا نقل کرنے میں نقص ہے
+Email	بريد الالكتروني	Email	Correo electrónico	ای میل
+Leader_Email	بريد المديرالإلكتروني	Leader Email	Correo del coordinador del curso	لیڈر کا ای میل
+Visits_Count	عدد الزيارات	Visits Count	Conteo de visitas	وزٹز کی تعداد
+Request_Resource_Title	:أريد إضافة هذا المجلد في بيل	I would like to have the following resource in BeLL.	Quiero el siguiente recurso en BeLL:	میں بیل ایپس میں درج ذیل ریسورس شامل کرنا چاہوں گا
+Invite	يدعو	Invite	Invitar	 مدعو کریں
+Event_Created_Success	تم إنشاء الموضوع بنجاح	Event successfully created.	Evento creado con éxito.	تقریب کامیابی کے ساتھ بن چکی ھے
+Resource_failure_update	تعذر تحديث النموذج بسبب تكرار العنوان	Cannot update due to identical title.	No se actualizó el modelo porque tiene el mismo título.	ماڈل کو یکساں عنوان کی وجہ سے  اپ ڈیٹ نہیں کر سکتے
+Nation_Url	عنوان الرابط	Nation Url	Nation Url	قوم کا Url
+Add_a_New_Report	إضافة تقرير جديد	Add a New Report	Agregar un informe nuevo	 ایک نئی رپورٹ شامل کریں
+Resource_RemovedFrom_Shelf_Success	تم حذف المعلومات من الألبوم بنجاح	Resource successfully removed from shelf.	Quitó con éxito el recurso del estante.	ریسورس کو کامیابی کے ساتھ شیلف میں سے حزف کر دیا ہے
+Hi	مرحباً	Hi	Hola	اسلام و عليکم
+upload_welcomeVideo	تحميل فيديو الترحيب	Upload Welcome Video	Upload Welcome Video	خوش آمدید ویڈیو اپ لوڈ کریں
+added_by	أضيفت من قبل	Added By	Añadido por	شامل کنندہ
+MeetUp_Detail	تفاصيل الاجتماع	Meetup Detail	Detalles del MeetUp	اجلاس کی تفصیل
+Edit_Step	تحرير الخطوة	Edit Step	Editar paso	مرحلہ میں ترمیم کریں
+Add_Community	إضافة مجموعة	Add Community	Add Community	Add Community
+CourseSteps_Synced_Error	تعذر مزامنة خطوات الدورة التدريبية	Failed to sync course steps.	Error al sincronizar los pasos del curso.	کورس کا مرحلہ ہم وقت ساز کرنے میں ناکامی ہے
+Up	فوق	Up	Arriba	اوپر
+Daily	يومي	Daily	A diario	روزانہ
+Sign_In	تسجيل الدخول	Sign In	Crear cuenta	سائن ان کریں
+Activity_Report	تقارير تسجيل الدخول	Activity Report	Informe de actividades	سرگرمی کی رپورٹ
+select_ratings	حدد عدد مرات التقييم	Select the number of ratings:	Select the number of ratings:	ریٹنگ کا نمبر منتخب کریں:
+Comment	التعليق	 Comment	 Comentario	 تبصرہ
+Resource_Count	عدد الموارد	Resource Count	Cuenta de recursos	ریسورسز کی تعداد
+Leader_Phone_Number	رقم هاتف المدير	Leader Phone Number	Teléfono del coordinador del curso	لیڈر کا فون نمبر
+Paper	ورقة	Paper	Trabajo	امتحان
+Questions	الاسئلة	Questions	Questions	Questions
+Previous	سابق	Previous	Anterior	پچھلا
+Select_Gender	Select Gender	Select Gender	Select Gender	Select Gender
+Log_Activity_Reports	تقارير تسجيل الدخول	Log Activity Reports	Log Activity Reports	لاگ کی سرگرمی کی رپورٹیں
+comm_reject_msg	Your registration request has been rejected, please check your data and re-send	Your registration request has been rejected, please check your data and re-send	Your registration request has been rejected, please check your data and re-send	Your registration request has been rejected, please check your data and re-send
+No_Record_Found	No Record Found	No Record Found	No Record Found	No Record Found
+Event_Name	إسم الموضوع	Event Name	Event Name	تقریب کا نام
+FeedBack_And_AddedToShelf	تم حفظ ملاحظتك وإضافتها إلى الألبوم بنجاح	Successfully saved feedback and added to shelf.	La retroalimentación se guardó con éxito y añadió al estante.	آپ کی رائے کو کامیابی سے محفوظ اور شیلف میں شامل کر لیا گیا ھے
+Add	إضافة	Add	Añadir	شامل کریے
+Pubs_Issue_Saved	تم حفظ النسخة/النشرة	Issue saved.	¡Publicación guarda!	ایشو محفوظ ہو چکا ہے
+request_accepted	Registration request has been accepted.	Registration request has been accepted.	Registration request has been accepted.	Registration request has been accepted.
+Reinstate	إعادة	Reinstate	Reintegrarse	بحال کریں
+Confirm_Report	هل أنت متأكد من أنك تريد حذف هذا التقرير؟	Are you sure you want to delete this report?	¿Desea eliminar este informe?	کیا آپ کو یقین ہے کہ آپ یہ رپورٹ حذف کرنا چاہتے ہیں؟
+NoUnRead_Mail	لا يوجد بريد غير مقروء	* No Unread Email.	* No Unread Email.	* بغیر پڑھا ہوا ای میل نہیں ہے
+Already_Pub_Sent	قد تم إرسال هذه النشرة سابقاً إلى	This publication is already sent to	Esta publicación ya se envió a	اس اشاعت کو پہلے ہی بھیج دیا ہے
+Editor_Email	إيميل المحرر/المؤلف	Editor Email	Editor Email	Editor Email
+Add_Feedback_For	إضافة تعليقات على	Add Feedback For	Añadir retroalimentación para	کے لئے رائے شامل کریں
+Un_Submitted	لم يتم الإرسال	Un-Submitted	Un-Submitted	غیر ارسال کیے گیے
+Enter_subject	الرجاء إدخال الموضوع	Please enter subject.	Ingrese el asunto.	موضوع لکھیں
+User	مستخدم	User	Usuario	صارف
+EditLabel	تحرير	Edit	Editar	ترمیم کریں
+adm_req_For_accepted	تم قبول طلبك للإنضمام، من قبل مدير الدورة التدريبية ل	Your admission request has been accepted by the course leader for	Your admission request has been accepted by the course leader for	آپ کے داخلہ کی درخواست کورس کے رہنما نے قبول کرلی ہے
+Submitted	أرسل	Submitted	Submitted	ارسال کیے گیے
+Filter	التصفية	Filter:	Filtro:	فلٹر
+no_answer_survey	لا يوجد أجوبة في هذا البحث/المجلد	No answers in this survey	No answers in this survey	No answers in this survey
+Stopped	تم الإيقاف	stopped	Detenido	رک گیا
+Suggestion	اقتراحات	Suggestions	Sugerencias	تجاویز
+Error	!خطأ	 Error	¡Error!	 خرابی
+survey_Saved_Successfully	تم حفظ البحث	Survey Saved!	Survey Saved!	سروے محفوظ ہو گیا ہے!
+Select_An_option	قم بتحديد خيار	Select an Option	Elige	ایک آپشن منتخب کریں
+View_All_Courses	عرض جميع الدورات التدريبية	View All Courses	View All Courses	تمام کورسز دیکھیں
+Bell	بيل	Bell	BeLL	بیل
+Duplicate_login	لقد قمت بتسجيل الدخول	Login already exists.	Inicio de sesión duplicado.	لاگ ان پہلے سے ہی موجود ھے
+Please_Select_Collections	يرجى تحديد مجموعات لدمج	Please select collections to merge.	Seleccione colecciones para combinar.	مجموعات ضم کرنے کے لیے منتخب کریں
+Group_Selection_Error	Please select age group first	Please select age group first	Please select age group first	Please select age group first
+Close	إغلاق	Close	Cerrar	بند کریں
+Gender_Selection_Error	Please select gender first	Please select gender first	Please select gender first	Please select gender first
+error_direction	الرجاء تحديد الاتجاه للغة المحددة	Please specify the direction for specified language.	Especifique la dirección del idioma en cuestión.	تخصیص کردہ زبان کے لئے سمت کا اندراج کریں ۔
+openUrl	فتح الرابط	Open URL	Open URL	URL کھولیں
+Community_Resources	Resources From Community	Resources From Community	Resources From Community	Resources From Community
+Functionality_Under_Construction	هذه الوظيفة هي قيد الإنشاء	This functionality is under construction.	Se está creando esta función.	یہ فعالیت زیر تعمیر ہے
+MeetUp_not_Existing	الاجتماع لم يعد موجود	Meetup does not exist.	Este MeetUp ya no existe.	اب اجلاس موجود نھیں ھے
+Added_To_Shelf	تمت الإضافة إلى الألبوم بنجاح	Successfully added to shelf.	Agregado con éxito al estante.	شیلف میں کامیابی سے اضافہ ھو گیا ھے
+Give_Feedback	زودنا بملاحظاتك على هذه الصفحة	Give us your feedback on the current page.	Opina sobre esta página actual.	 موجودہ صفحے پر ہمیں آپ کی رائے دے
+Destroy	اتلاف	Destroy	Destroy	خارج کریں
+Resource_Already_At_Nation	Resource is already at Nation	Resource is already at Nation	Resource is already at Nation	Resource is already at Nation
+Background_Color	لون الخلفية	Background Color	Color de fondo	پس منظر کا رنگ
+Edit_MeetUp	تعديل الاجتماع	Edit Meetup	Edita Meetup	اجلاس کی تدوین کریں
+resource_replication_error	Error! Resource could not be replicated	Error! Resource could not be replicated	Error! Resource could not be replicated	Error! Resource could not be replicated
+Back_to_Search	عودة إلى البحث	Back to Search	Regresar a búsqueda	واپس تلاش کرنے کے لئے
+Description	الوصف	 Description	Descripción	 تفصیل
+missing_surveyNo	رقم البحث مفقود	Survey Number is missing	Survey Number is missing	سروے نمبر غائب ہے
+My_Home	صفحتي الرئيسية	My Home	Página principal	صفحہ اول
+Undefined_Author	لم يتم التعرف على الكاتب	No author defined.	Sin autor definido.	مصنف کی وضاحت موجود نہیں
+request_pending	Request Pending	Request Pending	Request Pending	Request Pending
+Edit_Quiz	تحرير الاختبار القصير	Edit Quiz	Editar prueba	تصیح ٹیسٹ
+Timing	توقيت	Timing	Timing	وقت
+Added_Date	تاريخ الاضافة	Added Date	Fecha agregada	تاریخ شمولیت
+Password	الرمز السري	Password	Contraseña	 پاس ورڈ
+Step_deleted_Success	تم حذف العملية بنجاح	Step successfully deleted.	Paso eliminado con éxito.	مرحلہ کامیابی کے ساتھ خارج ھو گیا ھے
+PubsDistDb_Delete_Success	تم حذف النشرة الصادرة بنجاح	Successfully deleted publication distribution.	Distribución de la publicación eliminada con éxito.	اشاعتی ڈسٹریبیوشن ڈیٹابیس کو کامیابی سے حذف کر دیا ہے
+Duplicate_Title	العنوان موجود مسبقاً	Title already exists.	Este título ya existe.	عنوان پہلے ہی موجود ہے
+Url	الرابط	Url	Url	Url
+News_Feed	مصادر الأخبار	News Feed	Fuente de noticias	خبریں
+Gender	جنس	Gender	Género	صنف
+Resource_Deleted_success	تم حذف المجلد بنجاح	Resource successfully deleted.	Recurso eliminado con éxito.	ریسورس کو کامیابی کے ساتھ حزف کر دیا ہے
+level_Single	مستوى	Level	Nivel	لیول
+Remove	حذف	Remove	Quitar	حذف
+No_Meetup	لا يوجد مماثل	No Meetup	Sin MeetUps	ملاقات نہیں ہے
+Notes_Saved_Success	تم حفظ الملاحظات بنجاح	Notes successfully saved.	Notas guardadas con éxito.	نوٹ کامیابی سے محفوظ ہو چکا ھے 
+Send_to_communities	الإرسال إلى المجموعات	Send to communities	Send to communities	Send to communities
+Add_Step	إضافة خطوة	Add Step	Añadir paso	مرحلہ کا ا ضافہ کریں
+Average_Rating	متوسط التقييم	Average Rating	Nota promedio	اوسط درجہ بندی
+Event_Description	شرح الموضوع	Event Description	Event Description	تقریب کی تفصیل
+Step_Goals	أهداف المرحلة	Step Goals	Objetivos del paso	مرحلے کے مقاصد
+Demo	العرض التوضيحي	Demo	Versión demo	ڈیمو
+Unjoin	مغادرة هذا الاجتماع	Unjoin	Abandonar este MeetUp	چھوڑ دیں
+Accept	قبول	Accept	Aceptar	قبول کریں
+edit_welcomeVideo	تعديل نموذج فيديو الترحيب	Edit Welcome Video Form	Edit Welcome Video Form	خوش آمدید ویڈیو فارم میں ترمیم کریں
+Course_Updated_Success	تم تحديث الدورة التدريبية بنجاح	Course successfully updated.	Curso actualizado con éxito.	کورس کامیابی سے اپ ڈیٹ ھو چکا ھے
+Course_Pass_Msg	لقد نجحت في هذا المستوى	You have passed this level.	Aprobaste este nivel.	آپ اس لیول کوپاس کرچکے ہیں
+Inbox	الصندوق الوارد	Inbox	Inbox	ان باکس
+Calender	تقويم	Calendar	Calendario	کیلنڈر
