@@ -1,3 +1,6 @@
+
+# see out/ports_and_versions.csv
+
 echo -ne "Host,Version\n"
 
 ssh root@hammock cat /root/oleproxy/server.js | grep '"http' | cut -f4 -d'"' | sed 's/\/apps.*//' | grep -v 192.168 | while read host; do
