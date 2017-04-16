@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PORT=5984
-BELL_APPS_DIRECTORY=/Users/stu/code/ole/BeLL-Apps/
+BELL_APPS_DIRECTORY=/Users/stu/code/OLE/BeLL-Apps/
 
 cd "${BELL_APPS_DIRECTORY}" || exit 1
 chmod a+x node_modules/.bin/couchapp
@@ -25,8 +25,8 @@ done
 
 ## add bare minimal required data to couchdb for launching bell-apps smoothly
 for filename in init_docs/languages/*.txt; do
-    echo curl -d @$filename -H "Content-Type: application/json" -X POST http://127.0.0.1:$PORT/languages;
-    curl -d @$filename -H "Content-Type: application/json" -X POST http://127.0.0.1:$PORT/languages;
+    echo curl -d @"$filename" -H "Content-Type: application/json" -X POST http://127.0.0.1:$PORT/languages;
+    curl -d @"$filename" -H "Content-Type: application/json" -X POST http://127.0.0.1:$PORT/languages;
 done
 
 echo curl -d @init_docs/ConfigurationsDoc-Community.txt -H "Content-Type: application/json" -X POST http://127.0.0.1:$PORT/configurations
